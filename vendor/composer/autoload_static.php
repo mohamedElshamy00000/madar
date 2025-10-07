@@ -291,26 +291,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
             'Modules\\PaymentStripeRecurring\\Database\\Seeders\\' => 48,
             'Modules\\PaymentStripeRecurring\\Database\\Factories\\' => 50,
             'Modules\\PaymentStripeRecurring\\' => 31,
-            'Modules\\PaymentSslCommerz\\Tests\\' => 32,
-            'Modules\\PaymentSslCommerz\\Database\\Seeders\\' => 43,
-            'Modules\\PaymentSslCommerz\\Database\\Factories\\' => 45,
-            'Modules\\PaymentSslCommerz\\' => 26,
-            'Modules\\PaymentSkrill\\Tests\\' => 28,
-            'Modules\\PaymentSkrill\\Database\\Seeders\\' => 39,
-            'Modules\\PaymentSkrill\\Database\\Factories\\' => 41,
-            'Modules\\PaymentSkrill\\' => 22,
-            'Modules\\PaymentRazorpay\\Tests\\' => 30,
-            'Modules\\PaymentRazorpay\\Database\\Seeders\\' => 41,
-            'Modules\\PaymentRazorpay\\Database\\Factories\\' => 43,
-            'Modules\\PaymentRazorpay\\' => 24,
-            'Modules\\PaymentPaytm\\Tests\\' => 27,
-            'Modules\\PaymentPaytm\\Database\\Seeders\\' => 38,
-            'Modules\\PaymentPaytm\\Database\\Factories\\' => 40,
-            'Modules\\PaymentPaytm\\' => 21,
-            'Modules\\PaymentPaystack\\Tests\\' => 30,
-            'Modules\\PaymentPaystack\\Database\\Seeders\\' => 41,
-            'Modules\\PaymentPaystack\\Database\\Factories\\' => 43,
-            'Modules\\PaymentPaystack\\' => 24,
             'Modules\\PaymentPaypal\\Tests\\' => 28,
             'Modules\\PaymentPaypal\\Database\\Seeders\\' => 39,
             'Modules\\PaymentPaypal\\Database\\Factories\\' => 41,
@@ -319,42 +299,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
             'Modules\\PaymentPaypalRecurring\\Database\\Seeders\\' => 48,
             'Modules\\PaymentPaypalRecurring\\Database\\Factories\\' => 50,
             'Modules\\PaymentPaypalRecurring\\' => 31,
-            'Modules\\PaymentPayfast\\Tests\\' => 29,
-            'Modules\\PaymentPayfast\\Database\\Seeders\\' => 40,
-            'Modules\\PaymentPayfast\\Database\\Factories\\' => 42,
-            'Modules\\PaymentPayfast\\' => 23,
-            'Modules\\PaymentPayeer\\Tests\\' => 28,
-            'Modules\\PaymentPayeer\\Database\\Seeders\\' => 39,
-            'Modules\\PaymentPayeer\\Database\\Factories\\' => 41,
-            'Modules\\PaymentPayeer\\' => 22,
-            'Modules\\PaymentPayU\\Tests\\' => 26,
-            'Modules\\PaymentPayU\\Database\\Seeders\\' => 37,
-            'Modules\\PaymentPayU\\Database\\Factories\\' => 39,
-            'Modules\\PaymentPayU\\' => 20,
-            'Modules\\PaymentMollie\\Tests\\' => 28,
-            'Modules\\PaymentMollie\\Database\\Seeders\\' => 39,
-            'Modules\\PaymentMollie\\Database\\Factories\\' => 41,
-            'Modules\\PaymentMollie\\' => 22,
-            'Modules\\PaymentMercadoPago\\Tests\\' => 33,
-            'Modules\\PaymentMercadoPago\\Database\\Seeders\\' => 44,
-            'Modules\\PaymentMercadoPago\\Database\\Factories\\' => 46,
-            'Modules\\PaymentMercadoPago\\' => 27,
-            'Modules\\PaymentInstamojo\\Tests\\' => 31,
-            'Modules\\PaymentInstamojo\\Database\\Seeders\\' => 42,
-            'Modules\\PaymentInstamojo\\Database\\Factories\\' => 44,
-            'Modules\\PaymentInstamojo\\' => 25,
-            'Modules\\PaymentFlutterwave\\Tests\\' => 33,
-            'Modules\\PaymentFlutterwave\\Database\\Seeders\\' => 44,
-            'Modules\\PaymentFlutterwave\\Database\\Factories\\' => 46,
-            'Modules\\PaymentFlutterwave\\' => 27,
-            'Modules\\PaymentCCAvenue\\Tests\\' => 30,
-            'Modules\\PaymentCCAvenue\\Database\\Seeders\\' => 41,
-            'Modules\\PaymentCCAvenue\\Database\\Factories\\' => 43,
-            'Modules\\PaymentCCAvenue\\' => 24,
-            'Modules\\Payment2Checkout\\Tests\\' => 31,
-            'Modules\\Payment2Checkout\\Database\\Seeders\\' => 42,
-            'Modules\\Payment2Checkout\\Database\\Factories\\' => 44,
-            'Modules\\Payment2Checkout\\' => 25,
             'Modules\\Guest\\Tests\\' => 20,
             'Modules\\Guest\\Database\\Seeders\\' => 31,
             'Modules\\Guest\\Database\\Factories\\' => 33,
@@ -383,26 +327,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
             'Modules\\AppSupport\\Database\\Seeders\\' => 36,
             'Modules\\AppSupport\\Database\\Factories\\' => 38,
             'Modules\\AppSupport\\' => 19,
-            'Modules\\AppRssSchedules\\Tests\\' => 30,
-            'Modules\\AppRssSchedules\\Database\\Seeders\\' => 41,
-            'Modules\\AppRssSchedules\\Database\\Factories\\' => 43,
-            'Modules\\AppRssSchedules\\' => 24,
-            'Modules\\AppPublishing\\Tests\\' => 28,
-            'Modules\\AppPublishing\\Database\\Seeders\\' => 39,
-            'Modules\\AppPublishing\\Database\\Factories\\' => 41,
-            'Modules\\AppPublishing\\' => 22,
-            'Modules\\AppPublishingLabels\\Tests\\' => 34,
-            'Modules\\AppPublishingLabels\\Database\\Seeders\\' => 45,
-            'Modules\\AppPublishingLabels\\Database\\Factories\\' => 47,
-            'Modules\\AppPublishingLabels\\' => 28,
-            'Modules\\AppPublishingDraft\\Tests\\' => 33,
-            'Modules\\AppPublishingDraft\\Database\\Seeders\\' => 44,
-            'Modules\\AppPublishingDraft\\Database\\Factories\\' => 46,
-            'Modules\\AppPublishingDraft\\' => 27,
-            'Modules\\AppPublishingCampaigns\\Tests\\' => 37,
-            'Modules\\AppPublishingCampaigns\\Database\\Seeders\\' => 48,
-            'Modules\\AppPublishingCampaigns\\Database\\Factories\\' => 50,
-            'Modules\\AppPublishingCampaigns\\' => 31,
             'Modules\\AppProxies\\Tests\\' => 25,
             'Modules\\AppProxies\\Database\\Seeders\\' => 36,
             'Modules\\AppProxies\\Database\\Factories\\' => 38,
@@ -419,18 +343,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
             'Modules\\AppMediaSearch\\Database\\Seeders\\' => 40,
             'Modules\\AppMediaSearch\\Database\\Factories\\' => 42,
             'Modules\\AppMediaSearch\\' => 23,
-            'Modules\\AppInbox\\Tests\\' => 23,
-            'Modules\\AppInbox\\Database\\Seeders\\' => 34,
-            'Modules\\AppInbox\\Database\\Factories\\' => 36,
-            'Modules\\AppInbox\\' => 17,
-            'Modules\\AppInboxFacebook\\Tests\\' => 31,
-            'Modules\\AppInboxFacebook\\Database\\Seeders\\' => 42,
-            'Modules\\AppInboxFacebook\\Database\\Factories\\' => 44,
-            'Modules\\AppInboxFacebook\\' => 25,
-            'Modules\\AppGroups\\Tests\\' => 24,
-            'Modules\\AppGroups\\Database\\Seeders\\' => 35,
-            'Modules\\AppGroups\\Database\\Factories\\' => 37,
-            'Modules\\AppGroups\\' => 18,
             'Modules\\AppFiles\\Tests\\' => 23,
             'Modules\\AppFiles\\Database\\Seeders\\' => 34,
             'Modules\\AppFiles\\Database\\Factories\\' => 36,
@@ -439,158 +351,18 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
             'Modules\\AppDashboard\\Database\\Seeders\\' => 38,
             'Modules\\AppDashboard\\Database\\Factories\\' => 40,
             'Modules\\AppDashboard\\' => 21,
-            'Modules\\AppChannels\\Tests\\' => 26,
-            'Modules\\AppChannels\\Database\\Seeders\\' => 37,
-            'Modules\\AppChannels\\Database\\Factories\\' => 39,
-            'Modules\\AppChannels\\' => 20,
-            'Modules\\AppChannelYoutubeChannels\\Tests\\' => 40,
-            'Modules\\AppChannelYoutubeChannels\\Database\\Seeders\\' => 51,
-            'Modules\\AppChannelYoutubeChannels\\Database\\Factories\\' => 53,
-            'Modules\\AppChannelYoutubeChannels\\' => 34,
-            'Modules\\AppChannelXUnofficial\\Tests\\' => 36,
-            'Modules\\AppChannelXUnofficial\\Database\\Seeders\\' => 47,
-            'Modules\\AppChannelXUnofficial\\Database\\Factories\\' => 49,
-            'Modules\\AppChannelXUnofficial\\' => 30,
-            'Modules\\AppChannelXProfiles\\Tests\\' => 34,
-            'Modules\\AppChannelXProfiles\\Database\\Seeders\\' => 45,
-            'Modules\\AppChannelXProfiles\\Database\\Factories\\' => 47,
-            'Modules\\AppChannelXProfiles\\' => 28,
-            'Modules\\AppChannelWhatsappProfiles\\Tests\\' => 41,
-            'Modules\\AppChannelWhatsappProfiles\\Database\\Seeders\\' => 52,
-            'Modules\\AppChannelWhatsappProfiles\\Database\\Factories\\' => 54,
-            'Modules\\AppChannelWhatsappProfiles\\' => 35,
-            'Modules\\AppChannelVkProfiles\\Tests\\' => 35,
-            'Modules\\AppChannelVkProfiles\\Database\\Seeders\\' => 46,
-            'Modules\\AppChannelVkProfiles\\Database\\Factories\\' => 48,
-            'Modules\\AppChannelVkProfiles\\' => 29,
-            'Modules\\AppChannelVkPages\\Tests\\' => 32,
-            'Modules\\AppChannelVkPages\\Database\\Seeders\\' => 43,
-            'Modules\\AppChannelVkPages\\Database\\Factories\\' => 45,
-            'Modules\\AppChannelVkPages\\' => 26,
-            'Modules\\AppChannelVkOauth\\Tests\\' => 32,
-            'Modules\\AppChannelVkOauth\\Database\\Seeders\\' => 43,
-            'Modules\\AppChannelVkOauth\\Database\\Factories\\' => 45,
-            'Modules\\AppChannelVkOauth\\' => 26,
-            'Modules\\AppChannelVkGroups\\Tests\\' => 33,
-            'Modules\\AppChannelVkGroups\\Database\\Seeders\\' => 44,
-            'Modules\\AppChannelVkGroups\\Database\\Factories\\' => 46,
-            'Modules\\AppChannelVkGroups\\' => 27,
-            'Modules\\AppChannelTumblrBlogs\\Tests\\' => 36,
-            'Modules\\AppChannelTumblrBlogs\\Database\\Seeders\\' => 47,
-            'Modules\\AppChannelTumblrBlogs\\Database\\Factories\\' => 49,
-            'Modules\\AppChannelTumblrBlogs\\' => 30,
-            'Modules\\AppChannelTinderProfiles\\Tests\\' => 39,
-            'Modules\\AppChannelTinderProfiles\\Database\\Seeders\\' => 50,
-            'Modules\\AppChannelTinderProfiles\\Database\\Factories\\' => 52,
-            'Modules\\AppChannelTinderProfiles\\' => 33,
-            'Modules\\AppChannelTiktokProfiles\\Tests\\' => 39,
-            'Modules\\AppChannelTiktokProfiles\\Database\\Seeders\\' => 50,
-            'Modules\\AppChannelTiktokProfiles\\Database\\Factories\\' => 52,
-            'Modules\\AppChannelTiktokProfiles\\' => 33,
-            'Modules\\AppChannelThreadsProfiles\\Tests\\' => 40,
-            'Modules\\AppChannelThreadsProfiles\\Database\\Seeders\\' => 51,
-            'Modules\\AppChannelThreadsProfiles\\Database\\Factories\\' => 53,
-            'Modules\\AppChannelThreadsProfiles\\' => 34,
-            'Modules\\AppChannelTelegramOauth\\Tests\\' => 38,
-            'Modules\\AppChannelTelegramOauth\\Database\\Seeders\\' => 49,
-            'Modules\\AppChannelTelegramOauth\\Database\\Factories\\' => 51,
-            'Modules\\AppChannelTelegramOauth\\' => 32,
-            'Modules\\AppChannelTelegramGroups\\Tests\\' => 39,
-            'Modules\\AppChannelTelegramGroups\\Database\\Seeders\\' => 50,
-            'Modules\\AppChannelTelegramGroups\\Database\\Factories\\' => 52,
-            'Modules\\AppChannelTelegramGroups\\' => 33,
-            'Modules\\AppChannelTelegramChannels\\Tests\\' => 41,
-            'Modules\\AppChannelTelegramChannels\\Database\\Seeders\\' => 52,
-            'Modules\\AppChannelTelegramChannels\\Database\\Factories\\' => 54,
-            'Modules\\AppChannelTelegramChannels\\' => 35,
-            'Modules\\AppChannelRedditProfiles\\Tests\\' => 39,
-            'Modules\\AppChannelRedditProfiles\\Database\\Seeders\\' => 50,
-            'Modules\\AppChannelRedditProfiles\\Database\\Factories\\' => 52,
-            'Modules\\AppChannelRedditProfiles\\' => 33,
-            'Modules\\AppChannelPinterestBoards\\Tests\\' => 40,
-            'Modules\\AppChannelPinterestBoards\\Database\\Seeders\\' => 51,
-            'Modules\\AppChannelPinterestBoards\\Database\\Factories\\' => 53,
-            'Modules\\AppChannelPinterestBoards\\' => 34,
-            'Modules\\AppChannelOkGroups\\Tests\\' => 33,
-            'Modules\\AppChannelOkGroups\\Database\\Seeders\\' => 44,
-            'Modules\\AppChannelOkGroups\\Database\\Factories\\' => 46,
-            'Modules\\AppChannelOkGroups\\' => 27,
-            'Modules\\AppChannelLinkedinProfiles\\Tests\\' => 41,
-            'Modules\\AppChannelLinkedinProfiles\\Database\\Seeders\\' => 52,
-            'Modules\\AppChannelLinkedinProfiles\\Database\\Factories\\' => 54,
-            'Modules\\AppChannelLinkedinProfiles\\' => 35,
-            'Modules\\AppChannelLinkedinPages\\Tests\\' => 38,
-            'Modules\\AppChannelLinkedinPages\\Database\\Seeders\\' => 49,
-            'Modules\\AppChannelLinkedinPages\\Database\\Factories\\' => 51,
-            'Modules\\AppChannelLinkedinPages\\' => 32,
-            'Modules\\AppChannelInstagramUnofficial\\Tests\\' => 44,
-            'Modules\\AppChannelInstagramUnofficial\\Database\\Seeders\\' => 55,
-            'Modules\\AppChannelInstagramUnofficial\\Database\\Factories\\' => 57,
-            'Modules\\AppChannelInstagramUnofficial\\' => 38,
-            'Modules\\AppChannelInstagramProfiles\\Tests\\' => 42,
-            'Modules\\AppChannelInstagramProfiles\\Database\\Seeders\\' => 53,
-            'Modules\\AppChannelInstagramProfiles\\Database\\Factories\\' => 55,
-            'Modules\\AppChannelInstagramProfiles\\' => 36,
-            'Modules\\AppChannelGBPLocations\\Tests\\' => 37,
-            'Modules\\AppChannelGBPLocations\\Database\\Seeders\\' => 48,
-            'Modules\\AppChannelGBPLocations\\Database\\Factories\\' => 50,
-            'Modules\\AppChannelGBPLocations\\' => 31,
-            'Modules\\AppChannelFacebookProfiles\\Tests\\' => 41,
-            'Modules\\AppChannelFacebookProfiles\\Database\\Seeders\\' => 52,
-            'Modules\\AppChannelFacebookProfiles\\Database\\Factories\\' => 54,
-            'Modules\\AppChannelFacebookProfiles\\' => 35,
-            'Modules\\AppChannelFacebookPages\\Tests\\' => 38,
-            'Modules\\AppChannelFacebookPages\\Database\\Seeders\\' => 49,
-            'Modules\\AppChannelFacebookPages\\Database\\Factories\\' => 51,
-            'Modules\\AppChannelFacebookPages\\' => 32,
             'Modules\\AppCaptions\\Tests\\' => 26,
             'Modules\\AppCaptions\\Database\\Seeders\\' => 37,
             'Modules\\AppCaptions\\Database\\Factories\\' => 39,
             'Modules\\AppCaptions\\' => 20,
-            'Modules\\AppBulkPost\\Tests\\' => 26,
-            'Modules\\AppBulkPost\\Database\\Seeders\\' => 37,
-            'Modules\\AppBulkPost\\Database\\Factories\\' => 39,
-            'Modules\\AppBulkPost\\' => 20,
-            'Modules\\AppAnalytics\\Tests\\' => 27,
-            'Modules\\AppAnalytics\\Database\\Seeders\\' => 38,
-            'Modules\\AppAnalytics\\Database\\Factories\\' => 40,
-            'Modules\\AppAnalytics\\' => 21,
-            'Modules\\AppAnalyticsYoutube\\Tests\\' => 34,
-            'Modules\\AppAnalyticsYoutube\\Database\\Seeders\\' => 45,
-            'Modules\\AppAnalyticsYoutube\\Database\\Factories\\' => 47,
-            'Modules\\AppAnalyticsYoutube\\' => 28,
-            'Modules\\AppAnalyticsTiktok\\Tests\\' => 33,
-            'Modules\\AppAnalyticsTiktok\\Database\\Seeders\\' => 44,
-            'Modules\\AppAnalyticsTiktok\\Database\\Factories\\' => 46,
-            'Modules\\AppAnalyticsTiktok\\' => 27,
-            'Modules\\AppAnalyticsLinkedin\\Tests\\' => 35,
-            'Modules\\AppAnalyticsLinkedin\\Database\\Seeders\\' => 46,
-            'Modules\\AppAnalyticsLinkedin\\Database\\Factories\\' => 48,
-            'Modules\\AppAnalyticsLinkedin\\' => 29,
-            'Modules\\AppAnalyticsInstagram\\Tests\\' => 36,
-            'Modules\\AppAnalyticsInstagram\\Database\\Seeders\\' => 47,
-            'Modules\\AppAnalyticsInstagram\\Database\\Factories\\' => 49,
-            'Modules\\AppAnalyticsInstagram\\' => 30,
-            'Modules\\AppAnalyticsFacebook\\Tests\\' => 35,
-            'Modules\\AppAnalyticsFacebook\\Database\\Seeders\\' => 46,
-            'Modules\\AppAnalyticsFacebook\\Database\\Factories\\' => 48,
-            'Modules\\AppAnalyticsFacebook\\' => 29,
             'Modules\\AppAffiliate\\Tests\\' => 27,
             'Modules\\AppAffiliate\\Database\\Seeders\\' => 38,
             'Modules\\AppAffiliate\\Database\\Factories\\' => 40,
             'Modules\\AppAffiliate\\' => 21,
-            'Modules\\AppAIPublishing\\Tests\\' => 30,
-            'Modules\\AppAIPublishing\\Database\\Seeders\\' => 41,
-            'Modules\\AppAIPublishing\\Database\\Factories\\' => 43,
-            'Modules\\AppAIPublishing\\' => 24,
             'Modules\\AppAIPrompts\\Tests\\' => 27,
             'Modules\\AppAIPrompts\\Database\\Seeders\\' => 38,
             'Modules\\AppAIPrompts\\Database\\Factories\\' => 40,
             'Modules\\AppAIPrompts\\' => 21,
-            'Modules\\AppAIImages\\Tests\\' => 26,
-            'Modules\\AppAIImages\\Database\\Seeders\\' => 37,
-            'Modules\\AppAIImages\\Database\\Factories\\' => 39,
-            'Modules\\AppAIImages\\' => 20,
             'Modules\\AppAIContents\\Tests\\' => 28,
             'Modules\\AppAIContents\\Database\\Seeders\\' => 39,
             'Modules\\AppAIContents\\Database\\Factories\\' => 41,
@@ -719,10 +491,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
             'Modules\\AdminEmbedCode\\Database\\Seeders\\' => 40,
             'Modules\\AdminEmbedCode\\Database\\Factories\\' => 42,
             'Modules\\AdminEmbedCode\\' => 23,
-            'Modules\\AdminDataFaker\\Tests\\' => 29,
-            'Modules\\AdminDataFaker\\Database\\Seeders\\' => 40,
-            'Modules\\AdminDataFaker\\Database\\Factories\\' => 42,
-            'Modules\\AdminDataFaker\\' => 23,
             'Modules\\AdminDashboard\\Tests\\' => 29,
             'Modules\\AdminDashboard\\Database\\Seeders\\' => 40,
             'Modules\\AdminDashboard\\Database\\Factories\\' => 42,
@@ -938,9 +706,9 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         ),
         'phpDocumentor\\Reflection\\' => 
         array (
-            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
         ),
         'gimucco\\TikTokLoginKit\\' => 
         array (
@@ -952,10 +720,10 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         ),
         'Yajra\\DataTables\\' => 
         array (
-            0 => __DIR__ . '/..' . '/yajra/laravel-datatables-buttons/src',
-            1 => __DIR__ . '/..' . '/yajra/laravel-datatables-editor/src',
-            2 => __DIR__ . '/..' . '/yajra/laravel-datatables-export/src',
-            3 => __DIR__ . '/..' . '/yajra/laravel-datatables-fractal/src',
+            0 => __DIR__ . '/..' . '/yajra/laravel-datatables-fractal/src',
+            1 => __DIR__ . '/..' . '/yajra/laravel-datatables-export/src',
+            2 => __DIR__ . '/..' . '/yajra/laravel-datatables-editor/src',
+            3 => __DIR__ . '/..' . '/yajra/laravel-datatables-buttons/src',
             4 => __DIR__ . '/..' . '/yajra/laravel-datatables-html/src',
             5 => __DIR__ . '/..' . '/yajra/laravel-datatables-oracle/src',
         ),
@@ -1340,86 +1108,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         array (
             0 => __DIR__ . '/../..' . '/modules/PaymentStripeRecurring/app',
         ),
-        'Modules\\PaymentSslCommerz\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/tests',
-        ),
-        'Modules\\PaymentSslCommerz\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/database/seeders',
-        ),
-        'Modules\\PaymentSslCommerz\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/database/factories',
-        ),
-        'Modules\\PaymentSslCommerz\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/app',
-        ),
-        'Modules\\PaymentSkrill\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSkrill/tests',
-        ),
-        'Modules\\PaymentSkrill\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSkrill/database/seeders',
-        ),
-        'Modules\\PaymentSkrill\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSkrill/database/factories',
-        ),
-        'Modules\\PaymentSkrill\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentSkrill/app',
-        ),
-        'Modules\\PaymentRazorpay\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentRazorpay/tests',
-        ),
-        'Modules\\PaymentRazorpay\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentRazorpay/database/seeders',
-        ),
-        'Modules\\PaymentRazorpay\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentRazorpay/database/factories',
-        ),
-        'Modules\\PaymentRazorpay\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentRazorpay/app',
-        ),
-        'Modules\\PaymentPaytm\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaytm/tests',
-        ),
-        'Modules\\PaymentPaytm\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaytm/database/seeders',
-        ),
-        'Modules\\PaymentPaytm\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaytm/database/factories',
-        ),
-        'Modules\\PaymentPaytm\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaytm/app',
-        ),
-        'Modules\\PaymentPaystack\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaystack/tests',
-        ),
-        'Modules\\PaymentPaystack\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaystack/database/seeders',
-        ),
-        'Modules\\PaymentPaystack\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaystack/database/factories',
-        ),
-        'Modules\\PaymentPaystack\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPaystack/app',
-        ),
         'Modules\\PaymentPaypal\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/PaymentPaypal/tests',
@@ -1451,150 +1139,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\PaymentPaypalRecurring\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/PaymentPaypalRecurring/app',
-        ),
-        'Modules\\PaymentPayfast\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayfast/tests',
-        ),
-        'Modules\\PaymentPayfast\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayfast/database/seeders',
-        ),
-        'Modules\\PaymentPayfast\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayfast/database/factories',
-        ),
-        'Modules\\PaymentPayfast\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayfast/app',
-        ),
-        'Modules\\PaymentPayeer\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayeer/tests',
-        ),
-        'Modules\\PaymentPayeer\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayeer/database/seeders',
-        ),
-        'Modules\\PaymentPayeer\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayeer/database/factories',
-        ),
-        'Modules\\PaymentPayeer\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayeer/app',
-        ),
-        'Modules\\PaymentPayU\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayU/tests',
-        ),
-        'Modules\\PaymentPayU\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayU/database/seeders',
-        ),
-        'Modules\\PaymentPayU\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayU/database/factories',
-        ),
-        'Modules\\PaymentPayU\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentPayU/app',
-        ),
-        'Modules\\PaymentMollie\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMollie/tests',
-        ),
-        'Modules\\PaymentMollie\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMollie/database/seeders',
-        ),
-        'Modules\\PaymentMollie\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMollie/database/factories',
-        ),
-        'Modules\\PaymentMollie\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMollie/app',
-        ),
-        'Modules\\PaymentMercadoPago\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/tests',
-        ),
-        'Modules\\PaymentMercadoPago\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/database/seeders',
-        ),
-        'Modules\\PaymentMercadoPago\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/database/factories',
-        ),
-        'Modules\\PaymentMercadoPago\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/app',
-        ),
-        'Modules\\PaymentInstamojo\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentInstamojo/tests',
-        ),
-        'Modules\\PaymentInstamojo\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentInstamojo/database/seeders',
-        ),
-        'Modules\\PaymentInstamojo\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentInstamojo/database/factories',
-        ),
-        'Modules\\PaymentInstamojo\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentInstamojo/app',
-        ),
-        'Modules\\PaymentFlutterwave\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/tests',
-        ),
-        'Modules\\PaymentFlutterwave\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/database/seeders',
-        ),
-        'Modules\\PaymentFlutterwave\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/database/factories',
-        ),
-        'Modules\\PaymentFlutterwave\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/app',
-        ),
-        'Modules\\PaymentCCAvenue\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/tests',
-        ),
-        'Modules\\PaymentCCAvenue\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/database/seeders',
-        ),
-        'Modules\\PaymentCCAvenue\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/database/factories',
-        ),
-        'Modules\\PaymentCCAvenue\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/app',
-        ),
-        'Modules\\Payment2Checkout\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/Payment2Checkout/tests',
-        ),
-        'Modules\\Payment2Checkout\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/Payment2Checkout/database/seeders',
-        ),
-        'Modules\\Payment2Checkout\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/Payment2Checkout/database/factories',
-        ),
-        'Modules\\Payment2Checkout\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/Payment2Checkout/app',
         ),
         'Modules\\Guest\\Tests\\' => 
         array (
@@ -1708,86 +1252,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         array (
             0 => __DIR__ . '/../..' . '/modules/AppSupport/app',
         ),
-        'Modules\\AppRssSchedules\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppRssSchedules/tests',
-        ),
-        'Modules\\AppRssSchedules\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppRssSchedules/database/seeders',
-        ),
-        'Modules\\AppRssSchedules\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppRssSchedules/database/factories',
-        ),
-        'Modules\\AppRssSchedules\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppRssSchedules/app',
-        ),
-        'Modules\\AppPublishing\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishing/tests',
-        ),
-        'Modules\\AppPublishing\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishing/database/seeders',
-        ),
-        'Modules\\AppPublishing\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishing/database/factories',
-        ),
-        'Modules\\AppPublishing\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishing/app',
-        ),
-        'Modules\\AppPublishingLabels\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingLabels/tests',
-        ),
-        'Modules\\AppPublishingLabels\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingLabels/database/seeders',
-        ),
-        'Modules\\AppPublishingLabels\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingLabels/database/factories',
-        ),
-        'Modules\\AppPublishingLabels\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingLabels/app',
-        ),
-        'Modules\\AppPublishingDraft\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingDraft/tests',
-        ),
-        'Modules\\AppPublishingDraft\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingDraft/database/seeders',
-        ),
-        'Modules\\AppPublishingDraft\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingDraft/database/factories',
-        ),
-        'Modules\\AppPublishingDraft\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingDraft/app',
-        ),
-        'Modules\\AppPublishingCampaigns\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/tests',
-        ),
-        'Modules\\AppPublishingCampaigns\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/database/seeders',
-        ),
-        'Modules\\AppPublishingCampaigns\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/database/factories',
-        ),
-        'Modules\\AppPublishingCampaigns\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/app',
-        ),
         'Modules\\AppProxies\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/AppProxies/tests',
@@ -1852,54 +1316,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         array (
             0 => __DIR__ . '/../..' . '/modules/AppMediaSearch/app',
         ),
-        'Modules\\AppInbox\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInbox/tests',
-        ),
-        'Modules\\AppInbox\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInbox/database/seeders',
-        ),
-        'Modules\\AppInbox\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInbox/database/factories',
-        ),
-        'Modules\\AppInbox\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInbox/app',
-        ),
-        'Modules\\AppInboxFacebook\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInboxFacebook/tests',
-        ),
-        'Modules\\AppInboxFacebook\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInboxFacebook/database/seeders',
-        ),
-        'Modules\\AppInboxFacebook\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInboxFacebook/database/factories',
-        ),
-        'Modules\\AppInboxFacebook\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppInboxFacebook/app',
-        ),
-        'Modules\\AppGroups\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppGroups/tests',
-        ),
-        'Modules\\AppGroups\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppGroups/database/seeders',
-        ),
-        'Modules\\AppGroups\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppGroups/database/factories',
-        ),
-        'Modules\\AppGroups\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppGroups/app',
-        ),
         'Modules\\AppFiles\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/AppFiles/tests',
@@ -1932,422 +1348,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         array (
             0 => __DIR__ . '/../..' . '/modules/AppDashboard/app',
         ),
-        'Modules\\AppChannels\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannels/tests',
-        ),
-        'Modules\\AppChannels\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannels/database/seeders',
-        ),
-        'Modules\\AppChannels\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannels/database/factories',
-        ),
-        'Modules\\AppChannels\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannels/app',
-        ),
-        'Modules\\AppChannelYoutubeChannels\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/tests',
-        ),
-        'Modules\\AppChannelYoutubeChannels\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/database/seeders',
-        ),
-        'Modules\\AppChannelYoutubeChannels\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/database/factories',
-        ),
-        'Modules\\AppChannelYoutubeChannels\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/app',
-        ),
-        'Modules\\AppChannelXUnofficial\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/tests',
-        ),
-        'Modules\\AppChannelXUnofficial\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/database/seeders',
-        ),
-        'Modules\\AppChannelXUnofficial\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/database/factories',
-        ),
-        'Modules\\AppChannelXUnofficial\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app',
-        ),
-        'Modules\\AppChannelXProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/tests',
-        ),
-        'Modules\\AppChannelXProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelXProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/database/factories',
-        ),
-        'Modules\\AppChannelXProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/app',
-        ),
-        'Modules\\AppChannelWhatsappProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/tests',
-        ),
-        'Modules\\AppChannelWhatsappProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelWhatsappProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/database/factories',
-        ),
-        'Modules\\AppChannelWhatsappProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/app',
-        ),
-        'Modules\\AppChannelVkProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/tests',
-        ),
-        'Modules\\AppChannelVkProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelVkProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/database/factories',
-        ),
-        'Modules\\AppChannelVkProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/app',
-        ),
-        'Modules\\AppChannelVkPages\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkPages/tests',
-        ),
-        'Modules\\AppChannelVkPages\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkPages/database/seeders',
-        ),
-        'Modules\\AppChannelVkPages\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkPages/database/factories',
-        ),
-        'Modules\\AppChannelVkPages\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkPages/app',
-        ),
-        'Modules\\AppChannelVkOauth\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/tests',
-        ),
-        'Modules\\AppChannelVkOauth\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/database/seeders',
-        ),
-        'Modules\\AppChannelVkOauth\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/database/factories',
-        ),
-        'Modules\\AppChannelVkOauth\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/app',
-        ),
-        'Modules\\AppChannelVkGroups\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/tests',
-        ),
-        'Modules\\AppChannelVkGroups\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/database/seeders',
-        ),
-        'Modules\\AppChannelVkGroups\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/database/factories',
-        ),
-        'Modules\\AppChannelVkGroups\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/app',
-        ),
-        'Modules\\AppChannelTumblrBlogs\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/tests',
-        ),
-        'Modules\\AppChannelTumblrBlogs\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/database/seeders',
-        ),
-        'Modules\\AppChannelTumblrBlogs\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/database/factories',
-        ),
-        'Modules\\AppChannelTumblrBlogs\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/app',
-        ),
-        'Modules\\AppChannelTinderProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/tests',
-        ),
-        'Modules\\AppChannelTinderProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelTinderProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/database/factories',
-        ),
-        'Modules\\AppChannelTinderProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/app',
-        ),
-        'Modules\\AppChannelTiktokProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/tests',
-        ),
-        'Modules\\AppChannelTiktokProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelTiktokProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/database/factories',
-        ),
-        'Modules\\AppChannelTiktokProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/app',
-        ),
-        'Modules\\AppChannelThreadsProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/tests',
-        ),
-        'Modules\\AppChannelThreadsProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelThreadsProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/database/factories',
-        ),
-        'Modules\\AppChannelThreadsProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/app',
-        ),
-        'Modules\\AppChannelTelegramOauth\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/tests',
-        ),
-        'Modules\\AppChannelTelegramOauth\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/database/seeders',
-        ),
-        'Modules\\AppChannelTelegramOauth\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/database/factories',
-        ),
-        'Modules\\AppChannelTelegramOauth\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/app',
-        ),
-        'Modules\\AppChannelTelegramGroups\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/tests',
-        ),
-        'Modules\\AppChannelTelegramGroups\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/database/seeders',
-        ),
-        'Modules\\AppChannelTelegramGroups\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/database/factories',
-        ),
-        'Modules\\AppChannelTelegramGroups\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/app',
-        ),
-        'Modules\\AppChannelTelegramChannels\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/tests',
-        ),
-        'Modules\\AppChannelTelegramChannels\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/database/seeders',
-        ),
-        'Modules\\AppChannelTelegramChannels\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/database/factories',
-        ),
-        'Modules\\AppChannelTelegramChannels\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/app',
-        ),
-        'Modules\\AppChannelRedditProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/tests',
-        ),
-        'Modules\\AppChannelRedditProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelRedditProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/database/factories',
-        ),
-        'Modules\\AppChannelRedditProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/app',
-        ),
-        'Modules\\AppChannelPinterestBoards\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/tests',
-        ),
-        'Modules\\AppChannelPinterestBoards\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/database/seeders',
-        ),
-        'Modules\\AppChannelPinterestBoards\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/database/factories',
-        ),
-        'Modules\\AppChannelPinterestBoards\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/app',
-        ),
-        'Modules\\AppChannelOkGroups\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/tests',
-        ),
-        'Modules\\AppChannelOkGroups\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/database/seeders',
-        ),
-        'Modules\\AppChannelOkGroups\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/database/factories',
-        ),
-        'Modules\\AppChannelOkGroups\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/app',
-        ),
-        'Modules\\AppChannelLinkedinProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/tests',
-        ),
-        'Modules\\AppChannelLinkedinProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelLinkedinProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/database/factories',
-        ),
-        'Modules\\AppChannelLinkedinProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/app',
-        ),
-        'Modules\\AppChannelLinkedinPages\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/tests',
-        ),
-        'Modules\\AppChannelLinkedinPages\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/database/seeders',
-        ),
-        'Modules\\AppChannelLinkedinPages\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/database/factories',
-        ),
-        'Modules\\AppChannelLinkedinPages\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/app',
-        ),
-        'Modules\\AppChannelInstagramUnofficial\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/tests',
-        ),
-        'Modules\\AppChannelInstagramUnofficial\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/database/seeders',
-        ),
-        'Modules\\AppChannelInstagramUnofficial\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/database/factories',
-        ),
-        'Modules\\AppChannelInstagramUnofficial\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app',
-        ),
-        'Modules\\AppChannelInstagramProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/tests',
-        ),
-        'Modules\\AppChannelInstagramProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelInstagramProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/database/factories',
-        ),
-        'Modules\\AppChannelInstagramProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/app',
-        ),
-        'Modules\\AppChannelGBPLocations\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/tests',
-        ),
-        'Modules\\AppChannelGBPLocations\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/database/seeders',
-        ),
-        'Modules\\AppChannelGBPLocations\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/database/factories',
-        ),
-        'Modules\\AppChannelGBPLocations\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/app',
-        ),
-        'Modules\\AppChannelFacebookProfiles\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/tests',
-        ),
-        'Modules\\AppChannelFacebookProfiles\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/database/seeders',
-        ),
-        'Modules\\AppChannelFacebookProfiles\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/database/factories',
-        ),
-        'Modules\\AppChannelFacebookProfiles\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/app',
-        ),
-        'Modules\\AppChannelFacebookPages\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/tests',
-        ),
-        'Modules\\AppChannelFacebookPages\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/database/seeders',
-        ),
-        'Modules\\AppChannelFacebookPages\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/database/factories',
-        ),
-        'Modules\\AppChannelFacebookPages\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/app',
-        ),
         'Modules\\AppCaptions\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/AppCaptions/tests',
@@ -2363,118 +1363,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AppCaptions\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/AppCaptions/app',
-        ),
-        'Modules\\AppBulkPost\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppBulkPost/tests',
-        ),
-        'Modules\\AppBulkPost\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppBulkPost/database/seeders',
-        ),
-        'Modules\\AppBulkPost\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppBulkPost/database/factories',
-        ),
-        'Modules\\AppBulkPost\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppBulkPost/app',
-        ),
-        'Modules\\AppAnalytics\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalytics/tests',
-        ),
-        'Modules\\AppAnalytics\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalytics/database/seeders',
-        ),
-        'Modules\\AppAnalytics\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalytics/database/factories',
-        ),
-        'Modules\\AppAnalytics\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalytics/app',
-        ),
-        'Modules\\AppAnalyticsYoutube\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/tests',
-        ),
-        'Modules\\AppAnalyticsYoutube\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/database/seeders',
-        ),
-        'Modules\\AppAnalyticsYoutube\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/database/factories',
-        ),
-        'Modules\\AppAnalyticsYoutube\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/app',
-        ),
-        'Modules\\AppAnalyticsTiktok\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/tests',
-        ),
-        'Modules\\AppAnalyticsTiktok\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/database/seeders',
-        ),
-        'Modules\\AppAnalyticsTiktok\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/database/factories',
-        ),
-        'Modules\\AppAnalyticsTiktok\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/app',
-        ),
-        'Modules\\AppAnalyticsLinkedin\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/tests',
-        ),
-        'Modules\\AppAnalyticsLinkedin\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/database/seeders',
-        ),
-        'Modules\\AppAnalyticsLinkedin\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/database/factories',
-        ),
-        'Modules\\AppAnalyticsLinkedin\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/app',
-        ),
-        'Modules\\AppAnalyticsInstagram\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/tests',
-        ),
-        'Modules\\AppAnalyticsInstagram\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/database/seeders',
-        ),
-        'Modules\\AppAnalyticsInstagram\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/database/factories',
-        ),
-        'Modules\\AppAnalyticsInstagram\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/app',
-        ),
-        'Modules\\AppAnalyticsFacebook\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/tests',
-        ),
-        'Modules\\AppAnalyticsFacebook\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/database/seeders',
-        ),
-        'Modules\\AppAnalyticsFacebook\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/database/factories',
-        ),
-        'Modules\\AppAnalyticsFacebook\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/app',
         ),
         'Modules\\AppAffiliate\\Tests\\' => 
         array (
@@ -2492,22 +1380,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         array (
             0 => __DIR__ . '/../..' . '/modules/AppAffiliate/app',
         ),
-        'Modules\\AppAIPublishing\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIPublishing/tests',
-        ),
-        'Modules\\AppAIPublishing\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIPublishing/database/seeders',
-        ),
-        'Modules\\AppAIPublishing\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIPublishing/database/factories',
-        ),
-        'Modules\\AppAIPublishing\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIPublishing/app',
-        ),
         'Modules\\AppAIPrompts\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/AppAIPrompts/tests',
@@ -2523,22 +1395,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AppAIPrompts\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/AppAIPrompts/app',
-        ),
-        'Modules\\AppAIImages\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIImages/tests',
-        ),
-        'Modules\\AppAIImages\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIImages/database/seeders',
-        ),
-        'Modules\\AppAIImages\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIImages/database/factories',
-        ),
-        'Modules\\AppAIImages\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AppAIImages/app',
         ),
         'Modules\\AppAIContents\\Tests\\' => 
         array (
@@ -3051,22 +1907,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AdminEmbedCode\\' => 
         array (
             0 => __DIR__ . '/../..' . '/modules/AdminEmbedCode/app',
-        ),
-        'Modules\\AdminDataFaker\\Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AdminDataFaker/tests',
-        ),
-        'Modules\\AdminDataFaker\\Database\\Seeders\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AdminDataFaker/database/seeders',
-        ),
-        'Modules\\AdminDataFaker\\Database\\Factories\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AdminDataFaker/database/factories',
-        ),
-        'Modules\\AdminDataFaker\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/modules/AdminDataFaker/app',
         ),
         'Modules\\AdminDashboard\\Tests\\' => 
         array (
@@ -3856,6 +2696,7 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'App\\Services\\ClaudeService' => __DIR__ . '/../..' . '/app/Services/ClaudeService.php',
         'App\\Services\\DataTableService' => __DIR__ . '/../..' . '/app/Services/DataTableService.php',
         'App\\Services\\DeepSeekService' => __DIR__ . '/../..' . '/app/Services/DeepSeekService.php',
+        'App\\Services\\DeepSpeekService' => __DIR__ . '/../..' . '/app/Services/DeepSpeekService.php',
         'App\\Services\\GeminiService' => __DIR__ . '/../..' . '/app/Services/GeminiService.php',
         'App\\Services\\HeaderManager' => __DIR__ . '/../..' . '/app/Services/HeaderManager.php',
         'App\\Services\\HomeService' => __DIR__ . '/../..' . '/app/Services/HomeService.php',
@@ -12755,14 +11596,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AdminDashboard\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AdminDashboard/app/Providers/EventServiceProvider.php',
         'Modules\\AdminDashboard\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AdminDashboard/app/Providers/RouteServiceProvider.php',
         'Modules\\AdminDashboard\\Services\\AdminDashboardService' => __DIR__ . '/../..' . '/modules/AdminDashboard/app/Services/AdminDashboardService.php',
-        'Modules\\AdminDataFaker\\Console\\CronJobCommand' => __DIR__ . '/../..' . '/modules/AdminDataFaker/app/Console/CronJobCommand.php',
-        'Modules\\AdminDataFaker\\Database\\Seeders\\AdminDataFakerDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AdminDataFaker/database/seeders/AdminDataFakerDatabaseSeeder.php',
-        'Modules\\AdminDataFaker\\Facades\\DataFaker' => __DIR__ . '/../..' . '/modules/AdminDataFaker/app/Facades/DataFaker.php',
-        'Modules\\AdminDataFaker\\Http\\Controllers\\AdminDataFakerController' => __DIR__ . '/../..' . '/modules/AdminDataFaker/app/Http/Controllers/AdminDataFakerController.php',
-        'Modules\\AdminDataFaker\\Providers\\AdminDataFakerServiceProvider' => __DIR__ . '/../..' . '/modules/AdminDataFaker/app/Providers/AdminDataFakerServiceProvider.php',
-        'Modules\\AdminDataFaker\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AdminDataFaker/app/Providers/EventServiceProvider.php',
-        'Modules\\AdminDataFaker\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AdminDataFaker/app/Providers/RouteServiceProvider.php',
-        'Modules\\AdminDataFaker\\Services\\DataFakerService' => __DIR__ . '/../..' . '/modules/AdminDataFaker/app/Services/DataFakerService.php',
         'Modules\\AdminEmbedCode\\Database\\Seeders\\AdminEmbedCodeDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AdminEmbedCode/database/seeders/AdminEmbedCodeDatabaseSeeder.php',
         'Modules\\AdminEmbedCode\\Http\\Controllers\\AdminEmbedCodeController' => __DIR__ . '/../..' . '/modules/AdminEmbedCode/app/Http/Controllers/AdminEmbedCodeController.php',
         'Modules\\AdminEmbedCode\\Providers\\AdminEmbedCodeServiceProvider' => __DIR__ . '/../..' . '/modules/AdminEmbedCode/app/Providers/AdminEmbedCodeServiceProvider.php',
@@ -12959,24 +11792,12 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AppAIContents\\Providers\\AppAIContentsServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIContents/app/Providers/AppAIContentsServiceProvider.php',
         'Modules\\AppAIContents\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIContents/app/Providers/EventServiceProvider.php',
         'Modules\\AppAIContents\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIContents/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAIImages\\Database\\Seeders\\AppAIImagesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAIImages/database/seeders/AppAIImagesDatabaseSeeder.php',
-        'Modules\\AppAIImages\\Http\\Controllers\\AppAIImagesController' => __DIR__ . '/../..' . '/modules/AppAIImages/app/Http/Controllers/AppAIImagesController.php',
-        'Modules\\AppAIImages\\Providers\\AppAIImagesServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIImages/app/Providers/AppAIImagesServiceProvider.php',
-        'Modules\\AppAIImages\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIImages/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAIImages\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIImages/app/Providers/RouteServiceProvider.php',
         'Modules\\AppAIPrompts\\Database\\Seeders\\AppAIPromptsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAIPrompts/database/seeders/AppAIPromptsDatabaseSeeder.php',
         'Modules\\AppAIPrompts\\Http\\Controllers\\AppAIPromptsController' => __DIR__ . '/../..' . '/modules/AppAIPrompts/app/Http/Controllers/AppAIPromptsController.php',
         'Modules\\AppAIPrompts\\Models\\AIPrompt' => __DIR__ . '/../..' . '/modules/AppAIPrompts/app/Models/AIPrompt.php',
         'Modules\\AppAIPrompts\\Providers\\AppAIPromptsServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIPrompts/app/Providers/AppAIPromptsServiceProvider.php',
         'Modules\\AppAIPrompts\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIPrompts/app/Providers/EventServiceProvider.php',
         'Modules\\AppAIPrompts\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIPrompts/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAIPublishing\\Console\\CronJobCommand' => __DIR__ . '/../..' . '/modules/AppAIPublishing/app/Console/CronJobCommand.php',
-        'Modules\\AppAIPublishing\\Database\\Seeders\\AppAIPublishingDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAIPublishing/database/seeders/AppAIPublishingDatabaseSeeder.php',
-        'Modules\\AppAIPublishing\\Http\\Controllers\\AppAIPublishingController' => __DIR__ . '/../..' . '/modules/AppAIPublishing/app/Http/Controllers/AppAIPublishingController.php',
-        'Modules\\AppAIPublishing\\Models\\AIPosts' => __DIR__ . '/../..' . '/modules/AppAIPublishing/app/Models/AIPosts.php',
-        'Modules\\AppAIPublishing\\Providers\\AppAIPublishingServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIPublishing/app/Providers/AppAIPublishingServiceProvider.php',
-        'Modules\\AppAIPublishing\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIPublishing/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAIPublishing\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAIPublishing/app/Providers/RouteServiceProvider.php',
         'Modules\\AppAffiliate\\Database\\Seeders\\AppAffiliateDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAffiliate/database/seeders/AppAffiliateDatabaseSeeder.php',
         'Modules\\AppAffiliate\\Http\\Controllers\\AppAffiliateController' => __DIR__ . '/../..' . '/modules/AppAffiliate/app/Http/Controllers/AppAffiliateController.php',
         'Modules\\AppAffiliate\\Http\\Middleware\\CaptureReferral' => __DIR__ . '/../..' . '/modules/AppAffiliate/app/Http/Middleware/CaptureReferral.php',
@@ -12984,226 +11805,11 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AppAffiliate\\Providers\\AppAffiliateServiceProvider' => __DIR__ . '/../..' . '/modules/AppAffiliate/app/Providers/AppAffiliateServiceProvider.php',
         'Modules\\AppAffiliate\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAffiliate/app/Providers/EventServiceProvider.php',
         'Modules\\AppAffiliate\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAffiliate/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAnalyticsFacebook\\Database\\Seeders\\AppAnalyticsFacebookDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/database/seeders/AppAnalyticsFacebookDatabaseSeeder.php',
-        'Modules\\AppAnalyticsFacebook\\Http\\Controllers\\AppAnalyticsFacebookController' => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/app/Http/Controllers/AppAnalyticsFacebookController.php',
-        'Modules\\AppAnalyticsFacebook\\Providers\\AppAnalyticsFacebookServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/app/Providers/AppAnalyticsFacebookServiceProvider.php',
-        'Modules\\AppAnalyticsFacebook\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAnalyticsFacebook\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAnalyticsFacebook\\Services\\FacebookAnalytics' => __DIR__ . '/../..' . '/modules/AppAnalyticsFacebook/app/Services/FacebookAnalytics.php',
-        'Modules\\AppAnalyticsInstagram\\Database\\Seeders\\AppAnalyticsInstagramDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/database/seeders/AppAnalyticsInstagramDatabaseSeeder.php',
-        'Modules\\AppAnalyticsInstagram\\Http\\Controllers\\AppAnalyticsInstagramController' => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/app/Http/Controllers/AppAnalyticsInstagramController.php',
-        'Modules\\AppAnalyticsInstagram\\Providers\\AppAnalyticsInstagramServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/app/Providers/AppAnalyticsInstagramServiceProvider.php',
-        'Modules\\AppAnalyticsInstagram\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAnalyticsInstagram\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAnalyticsInstagram\\Services\\InstagramAnalytics' => __DIR__ . '/../..' . '/modules/AppAnalyticsInstagram/app/Services/InstagramAnalytics.php',
-        'Modules\\AppAnalyticsLinkedin\\Database\\Seeders\\AppAnalyticsLinkedinDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/database/seeders/AppAnalyticsLinkedinDatabaseSeeder.php',
-        'Modules\\AppAnalyticsLinkedin\\Http\\Controllers\\AppAnalyticsLinkedinController' => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/app/Http/Controllers/AppAnalyticsLinkedinController.php',
-        'Modules\\AppAnalyticsLinkedin\\Providers\\AppAnalyticsLinkedinServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/app/Providers/AppAnalyticsLinkedinServiceProvider.php',
-        'Modules\\AppAnalyticsLinkedin\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAnalyticsLinkedin\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAnalyticsLinkedin\\Services\\LinkedinAnalytics' => __DIR__ . '/../..' . '/modules/AppAnalyticsLinkedin/app/Services/LinkedinAnalytics.php',
-        'Modules\\AppAnalyticsTiktok\\Database\\Seeders\\AppAnalyticsTiktokDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/database/seeders/AppAnalyticsTiktokDatabaseSeeder.php',
-        'Modules\\AppAnalyticsTiktok\\Http\\Controllers\\AppAnalyticsTiktokController' => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/app/Http/Controllers/AppAnalyticsTiktokController.php',
-        'Modules\\AppAnalyticsTiktok\\Providers\\AppAnalyticsTiktokServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/app/Providers/AppAnalyticsTiktokServiceProvider.php',
-        'Modules\\AppAnalyticsTiktok\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAnalyticsTiktok\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAnalyticsTiktok\\Services\\TiktokAnalytics' => __DIR__ . '/../..' . '/modules/AppAnalyticsTiktok/app/Services/TiktokAnalytics.php',
-        'Modules\\AppAnalyticsYoutube\\Database\\Seeders\\AppAnalyticsYoutubeDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/database/seeders/AppAnalyticsYoutubeDatabaseSeeder.php',
-        'Modules\\AppAnalyticsYoutube\\Http\\Controllers\\AppAnalyticsYoutubeController' => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/app/Http/Controllers/AppAnalyticsYoutubeController.php',
-        'Modules\\AppAnalyticsYoutube\\Providers\\AppAnalyticsYoutubeServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/app/Providers/AppAnalyticsYoutubeServiceProvider.php',
-        'Modules\\AppAnalyticsYoutube\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAnalyticsYoutube\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAnalyticsYoutube\\Services\\YoutubeAnalytics' => __DIR__ . '/../..' . '/modules/AppAnalyticsYoutube/app/Services/YoutubeAnalytics.php',
-        'Modules\\AppAnalytics\\Contracts\\SocialAnalyticsInterface' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Contracts/SocialAnalyticsInterface.php',
-        'Modules\\AppAnalytics\\Database\\Seeders\\AppAnalyticsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppAnalytics/database/seeders/AppAnalyticsDatabaseSeeder.php',
-        'Modules\\AppAnalytics\\Facades\\Analytics' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Facades/Analytics.php',
-        'Modules\\AppAnalytics\\Http\\Controllers\\AppAnalyticsController' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Http/Controllers/AppAnalyticsController.php',
-        'Modules\\AppAnalytics\\Models\\SocialAnalytics' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Models/SocialAnalytics.php',
-        'Modules\\AppAnalytics\\Models\\SocialAnalyticsLog' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Models/SocialAnalyticsLog.php',
-        'Modules\\AppAnalytics\\Models\\SocialAnalyticsPost' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Models/SocialAnalyticsPost.php',
-        'Modules\\AppAnalytics\\Models\\SocialAnalyticsPostInfo' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Models/SocialAnalyticsPostInfo.php',
-        'Modules\\AppAnalytics\\Models\\SocialAnalyticsSnapshot' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Models/SocialAnalyticsSnapshot.php',
-        'Modules\\AppAnalytics\\Providers\\AppAnalyticsServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Providers/AppAnalyticsServiceProvider.php',
-        'Modules\\AppAnalytics\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Providers/EventServiceProvider.php',
-        'Modules\\AppAnalytics\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppAnalytics\\Services\\AnalyticsManager' => __DIR__ . '/../..' . '/modules/AppAnalytics/app/Services/AnalyticsManager.php',
-        'Modules\\AppBulkPost\\Database\\Seeders\\AppBulkPostDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppBulkPost/database/seeders/AppBulkPostDatabaseSeeder.php',
-        'Modules\\AppBulkPost\\Http\\Controllers\\AppBulkPostController' => __DIR__ . '/../..' . '/modules/AppBulkPost/app/Http/Controllers/AppBulkPostController.php',
-        'Modules\\AppBulkPost\\Providers\\AppBulkPostServiceProvider' => __DIR__ . '/../..' . '/modules/AppBulkPost/app/Providers/AppBulkPostServiceProvider.php',
-        'Modules\\AppBulkPost\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppBulkPost/app/Providers/EventServiceProvider.php',
-        'Modules\\AppBulkPost\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppBulkPost/app/Providers/RouteServiceProvider.php',
         'Modules\\AppCaptions\\Database\\Seeders\\AppCaptionsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppCaptions/database/seeders/AppCaptionsDatabaseSeeder.php',
         'Modules\\AppCaptions\\Http\\Controllers\\AppCaptionsController' => __DIR__ . '/../..' . '/modules/AppCaptions/app/Http/Controllers/AppCaptionsController.php',
         'Modules\\AppCaptions\\Providers\\AppCaptionsServiceProvider' => __DIR__ . '/../..' . '/modules/AppCaptions/app/Providers/AppCaptionsServiceProvider.php',
         'Modules\\AppCaptions\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppCaptions/app/Providers/EventServiceProvider.php',
         'Modules\\AppCaptions\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppCaptions/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelFacebookPages\\Database\\Seeders\\AppChannelFacebookPagesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/database/seeders/AppChannelFacebookPagesDatabaseSeeder.php',
-        'Modules\\AppChannelFacebookPages\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/app/Facades/Post.php',
-        'Modules\\AppChannelFacebookPages\\Http\\Controllers\\AppChannelFacebookPagesController' => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/app/Http/Controllers/AppChannelFacebookPagesController.php',
-        'Modules\\AppChannelFacebookPages\\Providers\\AppChannelFacebookPagesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/app/Providers/AppChannelFacebookPagesServiceProvider.php',
-        'Modules\\AppChannelFacebookPages\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelFacebookPages\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelFacebookPages/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelFacebookProfiles\\Database\\Seeders\\AppChannelFacebookProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/database/seeders/AppChannelFacebookProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelFacebookProfiles\\Http\\Controllers\\AppChannelFacebookProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/app/Http/Controllers/AppChannelFacebookProfilesController.php',
-        'Modules\\AppChannelFacebookProfiles\\Providers\\AppChannelFacebookProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/app/Providers/AppChannelFacebookProfilesServiceProvider.php',
-        'Modules\\AppChannelFacebookProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelFacebookProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelFacebookProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelGBPLocations\\Database\\Seeders\\AppChannelGBPLocationsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/database/seeders/AppChannelGBPLocationsDatabaseSeeder.php',
-        'Modules\\AppChannelGBPLocations\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/app/Facades/Post.php',
-        'Modules\\AppChannelGBPLocations\\Http\\Controllers\\AppChannelGBPLocationsController' => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/app/Http/Controllers/AppChannelGBPLocationsController.php',
-        'Modules\\AppChannelGBPLocations\\Providers\\AppChannelGBPLocationsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/app/Providers/AppChannelGBPLocationsServiceProvider.php',
-        'Modules\\AppChannelGBPLocations\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelGBPLocations\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelGBPLocations/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelInstagramProfiles\\Database\\Seeders\\AppChannelInstagramProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/database/seeders/AppChannelInstagramProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelInstagramProfiles\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/app/Facades/Post.php',
-        'Modules\\AppChannelInstagramProfiles\\Http\\Controllers\\AppChannelInstagramProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/app/Http/Controllers/AppChannelInstagramProfilesController.php',
-        'Modules\\AppChannelInstagramProfiles\\Providers\\AppChannelInstagramProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/app/Providers/AppChannelInstagramProfilesServiceProvider.php',
-        'Modules\\AppChannelInstagramProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelInstagramProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelInstagramProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelInstagramUnofficial\\Constants\\InstagramEndpoints' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Constants/InstagramEndpoints.php',
-        'Modules\\AppChannelInstagramUnofficial\\Database\\Seeders\\AppChannelInstagramUnofficialDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/database/seeders/AppChannelInstagramUnofficialDatabaseSeeder.php',
-        'Modules\\AppChannelInstagramUnofficial\\Facades\\IGUnofficial' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Facades/IGUnofficial.php',
-        'Modules\\AppChannelInstagramUnofficial\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Facades/Post.php',
-        'Modules\\AppChannelInstagramUnofficial\\Http\\Controllers\\AppChannelInstagramUnofficialController' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Http/Controllers/AppChannelInstagramUnofficialController.php',
-        'Modules\\AppChannelInstagramUnofficial\\Providers\\AppChannelInstagramUnofficialServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Providers/AppChannelInstagramUnofficialServiceProvider.php',
-        'Modules\\AppChannelInstagramUnofficial\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelInstagramUnofficial\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelInstagramUnofficial\\Services\\InstagramUnofficialService' => __DIR__ . '/../..' . '/modules/AppChannelInstagramUnofficial/app/Services/InstagramUnofficialService.php',
-        'Modules\\AppChannelLinkedinPages\\Database\\Seeders\\AppChannelLinkedinPagesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/database/seeders/AppChannelLinkedinPagesDatabaseSeeder.php',
-        'Modules\\AppChannelLinkedinPages\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/app/Facades/Post.php',
-        'Modules\\AppChannelLinkedinPages\\Http\\Controllers\\AppChannelLinkedinPagesController' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/app/Http/Controllers/AppChannelLinkedinPagesController.php',
-        'Modules\\AppChannelLinkedinPages\\Providers\\AppChannelLinkedinPagesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/app/Providers/AppChannelLinkedinPagesServiceProvider.php',
-        'Modules\\AppChannelLinkedinPages\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelLinkedinPages\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinPages/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelLinkedinProfiles\\Classes\\LinkedinAPI' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/app/Classes/LinkedinAPI.php',
-        'Modules\\AppChannelLinkedinProfiles\\Database\\Seeders\\AppChannelLinkedinProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/database/seeders/AppChannelLinkedinProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelLinkedinProfiles\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/app/Facades/Post.php',
-        'Modules\\AppChannelLinkedinProfiles\\Http\\Controllers\\AppChannelLinkedinProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/app/Http/Controllers/AppChannelLinkedinProfilesController.php',
-        'Modules\\AppChannelLinkedinProfiles\\Providers\\AppChannelLinkedinProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/app/Providers/AppChannelLinkedinProfilesServiceProvider.php',
-        'Modules\\AppChannelLinkedinProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelLinkedinProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelLinkedinProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelOkGroups\\Classes\\OkAPI' => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/app/Classes/OkAPI.php',
-        'Modules\\AppChannelOkGroups\\Database\\Seeders\\AppChannelOkGroupsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/database/seeders/AppChannelOkGroupsDatabaseSeeder.php',
-        'Modules\\AppChannelOkGroups\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/app/Facades/Post.php',
-        'Modules\\AppChannelOkGroups\\Http\\Controllers\\AppChannelOkGroupsController' => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/app/Http/Controllers/AppChannelOkGroupsController.php',
-        'Modules\\AppChannelOkGroups\\Providers\\AppChannelOkGroupsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/app/Providers/AppChannelOkGroupsServiceProvider.php',
-        'Modules\\AppChannelOkGroups\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelOkGroups\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelOkGroups/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelPinterestBoards\\Classes\\PinterestAPI' => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/app/Classes/PinterestAPI.php',
-        'Modules\\AppChannelPinterestBoards\\Database\\Seeders\\AppChannelPinterestBoardsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/database/seeders/AppChannelPinterestBoardsDatabaseSeeder.php',
-        'Modules\\AppChannelPinterestBoards\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/app/Facades/Post.php',
-        'Modules\\AppChannelPinterestBoards\\Http\\Controllers\\AppChannelPinterestBoardsController' => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/app/Http/Controllers/AppChannelPinterestBoardsController.php',
-        'Modules\\AppChannelPinterestBoards\\Providers\\AppChannelPinterestBoardsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/app/Providers/AppChannelPinterestBoardsServiceProvider.php',
-        'Modules\\AppChannelPinterestBoards\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelPinterestBoards\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelPinterestBoards/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelRedditProfiles\\Classes\\RedditAPI' => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/app/Classes/RedditAPI.php',
-        'Modules\\AppChannelRedditProfiles\\Database\\Seeders\\AppChannelRedditProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/database/seeders/AppChannelRedditProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelRedditProfiles\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/app/Facades/Post.php',
-        'Modules\\AppChannelRedditProfiles\\Http\\Controllers\\AppChannelRedditProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/app/Http/Controllers/AppChannelRedditProfilesController.php',
-        'Modules\\AppChannelRedditProfiles\\Providers\\AppChannelRedditProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/app/Providers/AppChannelRedditProfilesServiceProvider.php',
-        'Modules\\AppChannelRedditProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelRedditProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelRedditProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelTelegramChannels\\Database\\Seeders\\AppChannelTelegramChannelsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/database/seeders/AppChannelTelegramChannelsDatabaseSeeder.php',
-        'Modules\\AppChannelTelegramChannels\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/app/Facades/Post.php',
-        'Modules\\AppChannelTelegramChannels\\Http\\Controllers\\AppChannelTelegramChannelsController' => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/app/Http/Controllers/AppChannelTelegramChannelsController.php',
-        'Modules\\AppChannelTelegramChannels\\Providers\\AppChannelTelegramChannelsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/app/Providers/AppChannelTelegramChannelsServiceProvider.php',
-        'Modules\\AppChannelTelegramChannels\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelTelegramChannels\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramChannels/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelTelegramGroups\\Database\\Seeders\\AppChannelTelegramGroupsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/database/seeders/AppChannelTelegramGroupsDatabaseSeeder.php',
-        'Modules\\AppChannelTelegramGroups\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/app/Facades/Post.php',
-        'Modules\\AppChannelTelegramGroups\\Http\\Controllers\\AppChannelTelegramGroupsController' => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/app/Http/Controllers/AppChannelTelegramGroupsController.php',
-        'Modules\\AppChannelTelegramGroups\\Providers\\AppChannelTelegramGroupsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/app/Providers/AppChannelTelegramGroupsServiceProvider.php',
-        'Modules\\AppChannelTelegramGroups\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelTelegramGroups\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramGroups/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelTelegramOauth\\Database\\Seeders\\AppChannelTelegramOauthDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/database/seeders/AppChannelTelegramOauthDatabaseSeeder.php',
-        'Modules\\AppChannelTelegramOauth\\Http\\Controllers\\AppChannelTelegramOauthController' => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/app/Http/Controllers/AppChannelTelegramOauthController.php',
-        'Modules\\AppChannelTelegramOauth\\Providers\\AppChannelTelegramOauthServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/app/Providers/AppChannelTelegramOauthServiceProvider.php',
-        'Modules\\AppChannelTelegramOauth\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelTelegramOauth\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTelegramOauth/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelThreadsProfiles\\Classes\\Threads' => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/app/Classes/Threads.php',
-        'Modules\\AppChannelThreadsProfiles\\Database\\Seeders\\AppChannelThreadsProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/database/seeders/AppChannelThreadsProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelThreadsProfiles\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/app/Facades/Post.php',
-        'Modules\\AppChannelThreadsProfiles\\Http\\Controllers\\AppChannelThreadsProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/app/Http/Controllers/AppChannelThreadsProfilesController.php',
-        'Modules\\AppChannelThreadsProfiles\\Providers\\AppChannelThreadsProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/app/Providers/AppChannelThreadsProfilesServiceProvider.php',
-        'Modules\\AppChannelThreadsProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelThreadsProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelThreadsProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelTiktokProfiles\\Database\\Seeders\\AppChannelTiktokProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/database/seeders/AppChannelTiktokProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelTiktokProfiles\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/app/Facades/Post.php',
-        'Modules\\AppChannelTiktokProfiles\\Http\\Controllers\\AppChannelTiktokProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/app/Http/Controllers/AppChannelTiktokProfilesController.php',
-        'Modules\\AppChannelTiktokProfiles\\Providers\\AppChannelTiktokProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/app/Providers/AppChannelTiktokProfilesServiceProvider.php',
-        'Modules\\AppChannelTiktokProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelTiktokProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTiktokProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelTinderProfiles\\Database\\Seeders\\AppChannelTinderProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/database/seeders/AppChannelTinderProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelTinderProfiles\\Http\\Controllers\\AppChannelTinderProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/app/Http/Controllers/AppChannelTinderProfilesController.php',
-        'Modules\\AppChannelTinderProfiles\\Providers\\AppChannelTinderProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/app/Providers/AppChannelTinderProfilesServiceProvider.php',
-        'Modules\\AppChannelTinderProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelTinderProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTinderProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelTumblrBlogs\\Classes\\TumblrAPI' => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/app/Classes/TumblrAPI.php',
-        'Modules\\AppChannelTumblrBlogs\\Database\\Seeders\\AppChannelTumblrBlogsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/database/seeders/AppChannelTumblrBlogsDatabaseSeeder.php',
-        'Modules\\AppChannelTumblrBlogs\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/app/Facades/Post.php',
-        'Modules\\AppChannelTumblrBlogs\\Http\\Controllers\\AppChannelTumblrBlogsController' => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/app/Http/Controllers/AppChannelTumblrBlogsController.php',
-        'Modules\\AppChannelTumblrBlogs\\Providers\\AppChannelTumblrBlogsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/app/Providers/AppChannelTumblrBlogsServiceProvider.php',
-        'Modules\\AppChannelTumblrBlogs\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelTumblrBlogs\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelTumblrBlogs/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelVkGroups\\Database\\Seeders\\AppChannelVkGroupsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/database/seeders/AppChannelVkGroupsDatabaseSeeder.php',
-        'Modules\\AppChannelVkGroups\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/app/Facades/Post.php',
-        'Modules\\AppChannelVkGroups\\Http\\Controllers\\AppChannelVkGroupsController' => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/app/Http/Controllers/AppChannelVkGroupsController.php',
-        'Modules\\AppChannelVkGroups\\Providers\\AppChannelVkGroupsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/app/Providers/AppChannelVkGroupsServiceProvider.php',
-        'Modules\\AppChannelVkGroups\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelVkGroups\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkGroups/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelVkOauth\\Classes\\VkApi' => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/app/Classes/VkApi.php',
-        'Modules\\AppChannelVkOauth\\Database\\Seeders\\AppChannelVkOauthDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/database/seeders/AppChannelVkOauthDatabaseSeeder.php',
-        'Modules\\AppChannelVkOauth\\Http\\Controllers\\AppChannelVkOauthController' => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/app/Http/Controllers/AppChannelVkOauthController.php',
-        'Modules\\AppChannelVkOauth\\Providers\\AppChannelVkOauthServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/app/Providers/AppChannelVkOauthServiceProvider.php',
-        'Modules\\AppChannelVkOauth\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelVkOauth\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkOauth/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelVkPages\\Database\\Seeders\\AppChannelVkPagesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelVkPages/database/seeders/AppChannelVkPagesDatabaseSeeder.php',
-        'Modules\\AppChannelVkPages\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelVkPages/app/Facades/Post.php',
-        'Modules\\AppChannelVkPages\\Http\\Controllers\\AppChannelVkPagesController' => __DIR__ . '/../..' . '/modules/AppChannelVkPages/app/Http/Controllers/AppChannelVkPagesController.php',
-        'Modules\\AppChannelVkPages\\Providers\\AppChannelVkPagesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkPages/app/Providers/AppChannelVkPagesServiceProvider.php',
-        'Modules\\AppChannelVkPages\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkPages/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelVkPages\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkPages/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelVkProfiles\\Database\\Seeders\\AppChannelVkProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/database/seeders/AppChannelVkProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelVkProfiles\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/app/Facades/Post.php',
-        'Modules\\AppChannelVkProfiles\\Http\\Controllers\\AppChannelVkProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/app/Http/Controllers/AppChannelVkProfilesController.php',
-        'Modules\\AppChannelVkProfiles\\Providers\\AppChannelVkProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/app/Providers/AppChannelVkProfilesServiceProvider.php',
-        'Modules\\AppChannelVkProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelVkProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelVkProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelWhatsappProfiles\\Database\\Seeders\\AppChannelWhatsappProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/database/seeders/AppChannelWhatsappProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelWhatsappProfiles\\Http\\Controllers\\AppChannelWhatsappProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/app/Http/Controllers/AppChannelWhatsappProfilesController.php',
-        'Modules\\AppChannelWhatsappProfiles\\Providers\\AppChannelWhatsappProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/app/Providers/AppChannelWhatsappProfilesServiceProvider.php',
-        'Modules\\AppChannelWhatsappProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelWhatsappProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelWhatsappProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelXProfiles\\Classes\\XApi' => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/app/Classes/XApi.php',
-        'Modules\\AppChannelXProfiles\\Database\\Seeders\\AppChannelXProfilesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/database/seeders/AppChannelXProfilesDatabaseSeeder.php',
-        'Modules\\AppChannelXProfiles\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/app/Facades/Post.php',
-        'Modules\\AppChannelXProfiles\\Http\\Controllers\\AppChannelXProfilesController' => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/app/Http/Controllers/AppChannelXProfilesController.php',
-        'Modules\\AppChannelXProfiles\\Providers\\AppChannelXProfilesServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/app/Providers/AppChannelXProfilesServiceProvider.php',
-        'Modules\\AppChannelXProfiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelXProfiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelXProfiles/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelXUnofficial\\Constants\\XEndpoints' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Constants/XEndpoints.php',
-        'Modules\\AppChannelXUnofficial\\Database\\Seeders\\AppChannelXUnofficialDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/database/seeders/AppChannelXUnofficialDatabaseSeeder.php',
-        'Modules\\AppChannelXUnofficial\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Facades/Post.php',
-        'Modules\\AppChannelXUnofficial\\Facades\\XUnofficial' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Facades/XUnofficial.php',
-        'Modules\\AppChannelXUnofficial\\Http\\Controllers\\AppChannelXUnofficialController' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Http/Controllers/AppChannelXUnofficialController.php',
-        'Modules\\AppChannelXUnofficial\\Providers\\AppChannelXUnofficialServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Providers/AppChannelXUnofficialServiceProvider.php',
-        'Modules\\AppChannelXUnofficial\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelXUnofficial\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannelXUnofficial\\Services\\XUnofficialService' => __DIR__ . '/../..' . '/modules/AppChannelXUnofficial/app/Services/XUnofficialService.php',
-        'Modules\\AppChannelYouTubeChannels\\Facades\\Post' => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/app/Facades/Post.php',
-        'Modules\\AppChannelYoutubeChannels\\Database\\Seeders\\AppChannelYoutubeChannelsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/database/seeders/AppChannelYoutubeChannelsDatabaseSeeder.php',
-        'Modules\\AppChannelYoutubeChannels\\Http\\Controllers\\AppChannelYoutubeChannelsController' => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/app/Http/Controllers/AppChannelYoutubeChannelsController.php',
-        'Modules\\AppChannelYoutubeChannels\\Providers\\AppChannelYoutubeChannelsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/app/Providers/AppChannelYoutubeChannelsServiceProvider.php',
-        'Modules\\AppChannelYoutubeChannels\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannelYoutubeChannels\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannelYoutubeChannels/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppChannels\\Database\\Seeders\\AppChannelsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppChannels/database/seeders/AppChannelsDatabaseSeeder.php',
-        'Modules\\AppChannels\\Events\\ChannelEvent' => __DIR__ . '/../..' . '/modules/AppChannels/app/Events/ChannelEvent.php',
-        'Modules\\AppChannels\\Facades\\Channels' => __DIR__ . '/../..' . '/modules/AppChannels/app/Facades/Channels.php',
-        'Modules\\AppChannels\\Http\\Controllers\\AppChannelsController' => __DIR__ . '/../..' . '/modules/AppChannels/app/Http/Controllers/AppChannelsController.php',
-        'Modules\\AppChannels\\Models\\Accounts' => __DIR__ . '/../..' . '/modules/AppChannels/app/Models/Accounts.php',
-        'Modules\\AppChannels\\Providers\\AppChannelsServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannels/app/Providers/AppChannelsServiceProvider.php',
-        'Modules\\AppChannels\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannels/app/Providers/EventServiceProvider.php',
-        'Modules\\AppChannels\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppChannels/app/Providers/RouteServiceProvider.php',
         'Modules\\AppDashboard\\Database\\Seeders\\AppDashboardDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppDashboard/database/seeders/AppDashboardDatabaseSeeder.php',
         'Modules\\AppDashboard\\Facades\\AppDashboard' => __DIR__ . '/../..' . '/modules/AppDashboard/app/Facades/AppDashboard.php',
         'Modules\\AppDashboard\\Http\\Controllers\\AppDashboardController' => __DIR__ . '/../..' . '/modules/AppDashboard/app/Http/Controllers/AppDashboardController.php',
@@ -13220,35 +11826,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AppFiles\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppFiles/app/Providers/EventServiceProvider.php',
         'Modules\\AppFiles\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppFiles/app/Providers/RouteServiceProvider.php',
         'Modules\\AppFiles\\Services\\UploadFileService' => __DIR__ . '/../..' . '/modules/AppFiles/app/Services/UploadFileService.php',
-        'Modules\\AppGroups\\Database\\Seeders\\AppGroupsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppGroups/database/seeders/AppGroupsDatabaseSeeder.php',
-        'Modules\\AppGroups\\Http\\Controllers\\AppGroupsController' => __DIR__ . '/../..' . '/modules/AppGroups/app/Http/Controllers/AppGroupsController.php',
-        'Modules\\AppGroups\\Providers\\AppGroupsServiceProvider' => __DIR__ . '/../..' . '/modules/AppGroups/app/Providers/AppGroupsServiceProvider.php',
-        'Modules\\AppGroups\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppGroups/app/Providers/EventServiceProvider.php',
-        'Modules\\AppGroups\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppGroups/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppInboxFacebook\\Database\\Seeders\\AppInboxFacebookDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppInboxFacebook/database/seeders/AppInboxFacebookDatabaseSeeder.php',
-        'Modules\\AppInboxFacebook\\Drivers\\FacebookDriver' => __DIR__ . '/../..' . '/modules/AppInboxFacebook/app/Drivers/FacebookDriver.php',
-        'Modules\\AppInboxFacebook\\Http\\Controllers\\AppInboxFacebookController' => __DIR__ . '/../..' . '/modules/AppInboxFacebook/app/Http/Controllers/AppInboxFacebookController.php',
-        'Modules\\AppInboxFacebook\\Providers\\AppInboxFacebookServiceProvider' => __DIR__ . '/../..' . '/modules/AppInboxFacebook/app/Providers/AppInboxFacebookServiceProvider.php',
-        'Modules\\AppInboxFacebook\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppInboxFacebook/app/Providers/EventServiceProvider.php',
-        'Modules\\AppInboxFacebook\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppInboxFacebook/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppInbox\\DTO\\UnifiedMessage' => __DIR__ . '/../..' . '/modules/AppInbox/app/DTO/UnifiedMessage.php',
-        'Modules\\AppInbox\\Database\\Seeders\\AppInboxDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppInbox/database/seeders/AppInboxDatabaseSeeder.php',
-        'Modules\\AppInbox\\Events\\MessageReceived' => __DIR__ . '/../..' . '/modules/AppInbox/app/Events/MessageReceived.php',
-        'Modules\\AppInbox\\Http\\Controllers\\AppInboxController' => __DIR__ . '/../..' . '/modules/AppInbox/app/Http/Controllers/AppInboxController.php',
-        'Modules\\AppInbox\\Http\\Controllers\\WebhookController' => __DIR__ . '/../..' . '/modules/AppInbox/app/Http/Controllers/WebhookController.php',
-        'Modules\\AppInbox\\Interfaces\\ChannelDriverInterface' => __DIR__ . '/../..' . '/modules/AppInbox/app/Interfaces/ChannelDriverInterface.php',
-        'Modules\\AppInbox\\Jobs\\ProcessInboundMessage' => __DIR__ . '/../..' . '/modules/AppInbox/app/Jobs/ProcessInboundMessage.php',
-        'Modules\\AppInbox\\Listeners\\HandleChannel' => __DIR__ . '/../..' . '/modules/AppInbox/app/Listeners/HandleChannel.php',
-        'Modules\\AppInbox\\Models\\InboxChannel' => __DIR__ . '/../..' . '/modules/AppInbox/app/Models/InboxChannel.php',
-        'Modules\\AppInbox\\Models\\InboxChannelAccount' => __DIR__ . '/../..' . '/modules/AppInbox/app/Models/InboxChannelAccount.php',
-        'Modules\\AppInbox\\Models\\InboxContact' => __DIR__ . '/../..' . '/modules/AppInbox/app/Models/InboxContact.php',
-        'Modules\\AppInbox\\Models\\InboxConversation' => __DIR__ . '/../..' . '/modules/AppInbox/app/Models/InboxConversation.php',
-        'Modules\\AppInbox\\Models\\InboxMessage' => __DIR__ . '/../..' . '/modules/AppInbox/app/Models/InboxMessage.php',
-        'Modules\\AppInbox\\Providers\\AppInboxServiceProvider' => __DIR__ . '/../..' . '/modules/AppInbox/app/Providers/AppInboxServiceProvider.php',
-        'Modules\\AppInbox\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppInbox/app/Providers/EventServiceProvider.php',
-        'Modules\\AppInbox\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppInbox/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppInbox\\Services\\ChannelRegistry' => __DIR__ . '/../..' . '/modules/AppInbox/app/Services/ChannelRegistry.php',
-        'Modules\\AppInbox\\Services\\InboxService' => __DIR__ . '/../..' . '/modules/AppInbox/app/Services/InboxService.php',
         'Modules\\AppMediaSearch\\Database\\Seeders\\AppMediaSearchDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppMediaSearch/database/seeders/AppMediaSearchDatabaseSeeder.php',
         'Modules\\AppMediaSearch\\Facades\\SearchMedia' => __DIR__ . '/../..' . '/modules/AppMediaSearch/app/Facades/SearchMedia.php',
         'Modules\\AppMediaSearch\\Http\\Controllers\\AppMediaSearchController' => __DIR__ . '/../..' . '/modules/AppMediaSearch/app/Http/Controllers/AppMediaSearchController.php',
@@ -13280,44 +11857,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\AppProxies\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppProxies/app/Providers/EventServiceProvider.php',
         'Modules\\AppProxies\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppProxies/app/Providers/RouteServiceProvider.php',
         'Modules\\AppProxies\\Services\\ProxyService' => __DIR__ . '/../..' . '/modules/AppProxies/app/Services/ProxyService.php',
-        'Modules\\AppPublishingCampaigns\\Database\\Seeders\\AppPublishingCampaignsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/database/seeders/AppPublishingCampaignsDatabaseSeeder.php',
-        'Modules\\AppPublishingCampaigns\\Http\\Controllers\\AppPublishingCampaignsController' => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/app/Http/Controllers/AppPublishingCampaignsController.php',
-        'Modules\\AppPublishingCampaigns\\Models\\PostCampaign' => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/app/Models/PostCampaign.php',
-        'Modules\\AppPublishingCampaigns\\Providers\\AppPublishingCampaignsServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/app/Providers/AppPublishingCampaignsServiceProvider.php',
-        'Modules\\AppPublishingCampaigns\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/app/Providers/EventServiceProvider.php',
-        'Modules\\AppPublishingCampaigns\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingCampaigns/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppPublishingDraft\\Database\\Seeders\\AppPublishingDraftDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppPublishingDraft/database/seeders/AppPublishingDraftDatabaseSeeder.php',
-        'Modules\\AppPublishingDraft\\Http\\Controllers\\AppPublishingDraftController' => __DIR__ . '/../..' . '/modules/AppPublishingDraft/app/Http/Controllers/AppPublishingDraftController.php',
-        'Modules\\AppPublishingDraft\\Providers\\AppPublishingDraftServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingDraft/app/Providers/AppPublishingDraftServiceProvider.php',
-        'Modules\\AppPublishingDraft\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingDraft/app/Providers/EventServiceProvider.php',
-        'Modules\\AppPublishingDraft\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingDraft/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppPublishingLabels\\Database\\Seeders\\AppPublishingLabelsDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppPublishingLabels/database/seeders/AppPublishingLabelsDatabaseSeeder.php',
-        'Modules\\AppPublishingLabels\\Http\\Controllers\\AppPublishingLabelsController' => __DIR__ . '/../..' . '/modules/AppPublishingLabels/app/Http/Controllers/AppPublishingLabelsController.php',
-        'Modules\\AppPublishingLabels\\Models\\PostLabel' => __DIR__ . '/../..' . '/modules/AppPublishingLabels/app/Models/PostLabel.php',
-        'Modules\\AppPublishingLabels\\Providers\\AppPublishingLabelsServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingLabels/app/Providers/AppPublishingLabelsServiceProvider.php',
-        'Modules\\AppPublishingLabels\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingLabels/app/Providers/EventServiceProvider.php',
-        'Modules\\AppPublishingLabels\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishingLabels/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppPublishing\\Console\\CronJobCommand' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Console/CronJobCommand.php',
-        'Modules\\AppPublishing\\Database\\Seeders\\AppPublishingDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppPublishing/database/seeders/AppPublishingDatabaseSeeder.php',
-        'Modules\\AppPublishing\\Facades\\Publishing' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Facades/Publishing.php',
-        'Modules\\AppPublishing\\Facades\\PublishingReport' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Facades/PublishingReport.php',
-        'Modules\\AppPublishing\\Http\\Controllers\\AppPublishingController' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Http/Controllers/AppPublishingController.php',
-        'Modules\\AppPublishing\\Models\\PostStat' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Models/PostStat.php',
-        'Modules\\AppPublishing\\Models\\Posts' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Models/Posts.php',
-        'Modules\\AppPublishing\\Providers\\AppPublishingServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Providers/AppPublishingServiceProvider.php',
-        'Modules\\AppPublishing\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Providers/EventServiceProvider.php',
-        'Modules\\AppPublishing\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppPublishing\\Services\\PublishingService' => __DIR__ . '/../..' . '/modules/AppPublishing/app/Services/PublishingService.php',
-        'Modules\\AppRssSchedules\\Console\\RssCronJobCommand' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Console/RssCronJobCommand.php',
-        'Modules\\AppRssSchedules\\Database\\Seeders\\AppRssSchedulesDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppRssSchedules/database/seeders/AppRssSchedulesDatabaseSeeder.php',
-        'Modules\\AppRssSchedules\\Facades\\RssAutomation' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Facades/RssAutomation.php',
-        'Modules\\AppRssSchedules\\Http\\Controllers\\AppRssSchedulesController' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Http/Controllers/AppRssSchedulesController.php',
-        'Modules\\AppRssSchedules\\Models\\RssSchedule' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Models/RssSchedule.php',
-        'Modules\\AppRssSchedules\\Models\\RssScheduleHistory' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Models/RssScheduleHistory.php',
-        'Modules\\AppRssSchedules\\Providers\\AppRssSchedulesServiceProvider' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Providers/AppRssSchedulesServiceProvider.php',
-        'Modules\\AppRssSchedules\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Providers/EventServiceProvider.php',
-        'Modules\\AppRssSchedules\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Providers/RouteServiceProvider.php',
-        'Modules\\AppRssSchedules\\Services\\RssService' => __DIR__ . '/../..' . '/modules/AppRssSchedules/app/Services/RssService.php',
         'Modules\\AppSupport\\Database\\Seeders\\AppSupportDatabaseSeeder' => __DIR__ . '/../..' . '/modules/AppSupport/database/seeders/AppSupportDatabaseSeeder.php',
         'Modules\\AppSupport\\Events\\SupportEvents' => __DIR__ . '/../..' . '/modules/AppSupport/app/Events/SupportEvents.php',
         'Modules\\AppSupport\\Http\\Controllers\\AppSupportController' => __DIR__ . '/../..' . '/modules/AppSupport/app/Http/Controllers/AppSupportController.php',
@@ -13364,59 +11903,7 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\Guest\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/Guest/app/Providers/EventServiceProvider.php',
         'Modules\\Guest\\Providers\\GuestServiceProvider' => __DIR__ . '/../..' . '/modules/Guest/app/Providers/GuestServiceProvider.php',
         'Modules\\Guest\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/Guest/app/Providers/RouteServiceProvider.php',
-        'Modules\\Payment2Checkout\\Database\\Seeders\\Payment2CheckoutDatabaseSeeder' => __DIR__ . '/../..' . '/modules/Payment2Checkout/database/seeders/Payment2CheckoutDatabaseSeeder.php',
-        'Modules\\Payment2Checkout\\Http\\Controllers\\Payment2CheckoutController' => __DIR__ . '/../..' . '/modules/Payment2Checkout/app/Http/Controllers/Payment2CheckoutController.php',
-        'Modules\\Payment2Checkout\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/Payment2Checkout/app/Providers/EventServiceProvider.php',
-        'Modules\\Payment2Checkout\\Providers\\Payment2CheckoutServiceProvider' => __DIR__ . '/../..' . '/modules/Payment2Checkout/app/Providers/Payment2CheckoutServiceProvider.php',
-        'Modules\\Payment2Checkout\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/Payment2Checkout/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentCCAvenue\\Database\\Seeders\\PaymentCCAvenueDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/database/seeders/PaymentCCAvenueDatabaseSeeder.php',
-        'Modules\\PaymentCCAvenue\\Http\\Controllers\\PaymentCCAvenueController' => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/app/Http/Controllers/PaymentCCAvenueController.php',
-        'Modules\\PaymentCCAvenue\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentCCAvenue\\Providers\\PaymentCCAvenueServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/app/Providers/PaymentCCAvenueServiceProvider.php',
-        'Modules\\PaymentCCAvenue\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentCCAvenue\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentCCAvenue/app/Services/PaymentService.php',
-        'Modules\\PaymentFlutterwave\\Database\\Seeders\\PaymentFlutterwaveDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/database/seeders/PaymentFlutterwaveDatabaseSeeder.php',
-        'Modules\\PaymentFlutterwave\\Http\\Controllers\\PaymentFlutterwaveController' => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/app/Http/Controllers/PaymentFlutterwaveController.php',
-        'Modules\\PaymentFlutterwave\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentFlutterwave\\Providers\\PaymentFlutterwaveServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/app/Providers/PaymentFlutterwaveServiceProvider.php',
-        'Modules\\PaymentFlutterwave\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentFlutterwave\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentFlutterwave/app/Services/PaymentService.php',
-        'Modules\\PaymentInstamojo\\Database\\Seeders\\PaymentInstamojoDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentInstamojo/database/seeders/PaymentInstamojoDatabaseSeeder.php',
-        'Modules\\PaymentInstamojo\\Http\\Controllers\\PaymentInstamojoController' => __DIR__ . '/../..' . '/modules/PaymentInstamojo/app/Http/Controllers/PaymentInstamojoController.php',
-        'Modules\\PaymentInstamojo\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentInstamojo/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentInstamojo\\Providers\\PaymentInstamojoServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentInstamojo/app/Providers/PaymentInstamojoServiceProvider.php',
-        'Modules\\PaymentInstamojo\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentInstamojo/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentInstamojo\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentInstamojo/app/Services/PaymentService.php',
-        'Modules\\PaymentMercadoPago\\Database\\Seeders\\PaymentMercadoPagoDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/database/seeders/PaymentMercadoPagoDatabaseSeeder.php',
-        'Modules\\PaymentMercadoPago\\Http\\Controllers\\PaymentMercadoPagoController' => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/app/Http/Controllers/PaymentMercadoPagoController.php',
-        'Modules\\PaymentMercadoPago\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentMercadoPago\\Providers\\PaymentMercadoPagoServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/app/Providers/PaymentMercadoPagoServiceProvider.php',
-        'Modules\\PaymentMercadoPago\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentMercadoPago\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentMercadoPago/app/Services/PaymentService.php',
-        'Modules\\PaymentMollie\\Database\\Seeders\\PaymentMollieDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentMollie/database/seeders/PaymentMollieDatabaseSeeder.php',
-        'Modules\\PaymentMollie\\Http\\Controllers\\PaymentMollieController' => __DIR__ . '/../..' . '/modules/PaymentMollie/app/Http/Controllers/PaymentMollieController.php',
-        'Modules\\PaymentMollie\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentMollie/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentMollie\\Providers\\PaymentMollieServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentMollie/app/Providers/PaymentMollieServiceProvider.php',
-        'Modules\\PaymentMollie\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentMollie/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentMollie\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentMollie/app/Services/PaymentService.php',
         'Modules\\PaymentPayPalRecurring\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentPaypalRecurring/app/Services/PaymentService.php',
-        'Modules\\PaymentPayU\\Database\\Seeders\\PaymentPayUDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentPayU/database/seeders/PaymentPayUDatabaseSeeder.php',
-        'Modules\\PaymentPayU\\Http\\Controllers\\PaymentPayUController' => __DIR__ . '/../..' . '/modules/PaymentPayU/app/Http/Controllers/PaymentPayUController.php',
-        'Modules\\PaymentPayU\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayU/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentPayU\\Providers\\PaymentPayUServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayU/app/Providers/PaymentPayUServiceProvider.php',
-        'Modules\\PaymentPayU\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayU/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentPayU\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentPayU/app/Services/PaymentService.php',
-        'Modules\\PaymentPayeer\\Database\\Seeders\\PaymentPayeerDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentPayeer/database/seeders/PaymentPayeerDatabaseSeeder.php',
-        'Modules\\PaymentPayeer\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayeer/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentPayeer\\Providers\\PaymentPayeerServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayeer/app/Providers/PaymentPayeerServiceProvider.php',
-        'Modules\\PaymentPayeer\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayeer/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentPayeer\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentPayeer/app/Services/PaymentService.php',
-        'Modules\\PaymentPayfast\\Database\\Seeders\\PaymentPayfastDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentPayfast/database/seeders/PaymentPayfastDatabaseSeeder.php',
-        'Modules\\PaymentPayfast\\Http\\Controllers\\PaymentPayfastController' => __DIR__ . '/../..' . '/modules/PaymentPayfast/app/Http/Controllers/PaymentPayfastController.php',
-        'Modules\\PaymentPayfast\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayfast/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentPayfast\\Providers\\PaymentPayfastServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayfast/app/Providers/PaymentPayfastServiceProvider.php',
-        'Modules\\PaymentPayfast\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPayfast/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentPayfast\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentPayfast/app/Services/PaymentService.php',
         'Modules\\PaymentPaypalRecurring\\Database\\Seeders\\PaymentPaypalRecurringDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentPaypalRecurring/database/seeders/PaymentPaypalRecurringDatabaseSeeder.php',
         'Modules\\PaymentPaypalRecurring\\Http\\Controllers\\PaymentPaypalRecurringController' => __DIR__ . '/../..' . '/modules/PaymentPaypalRecurring/app/Http/Controllers/PaymentPaypalRecurringController.php',
         'Modules\\PaymentPaypalRecurring\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaypalRecurring/app/Providers/EventServiceProvider.php',
@@ -13428,35 +11915,6 @@ class ComposerStaticInit589cc0f65c3aaa7d4e9024d545bc1974
         'Modules\\PaymentPaypal\\Providers\\PaymentPaypalServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaypal/app/Providers/PaymentPaypalServiceProvider.php',
         'Modules\\PaymentPaypal\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaypal/app/Providers/RouteServiceProvider.php',
         'Modules\\PaymentPaypal\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentPaypal/app/Services/PaymentService.php',
-        'Modules\\PaymentPaystack\\Database\\Seeders\\PaymentPaystackDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentPaystack/database/seeders/PaymentPaystackDatabaseSeeder.php',
-        'Modules\\PaymentPaystack\\Http\\Controllers\\PaymentPaystackController' => __DIR__ . '/../..' . '/modules/PaymentPaystack/app/Http/Controllers/PaymentPaystackController.php',
-        'Modules\\PaymentPaystack\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaystack/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentPaystack\\Providers\\PaymentPaystackServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaystack/app/Providers/PaymentPaystackServiceProvider.php',
-        'Modules\\PaymentPaystack\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaystack/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentPaystack\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentPaystack/app/Services/PaymentService.php',
-        'Modules\\PaymentPaytm\\Database\\Seeders\\PaymentPaytmDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentPaytm/database/seeders/PaymentPaytmDatabaseSeeder.php',
-        'Modules\\PaymentPaytm\\Http\\Controllers\\PaymentPaytmController' => __DIR__ . '/../..' . '/modules/PaymentPaytm/app/Http/Controllers/PaymentPaytmController.php',
-        'Modules\\PaymentPaytm\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaytm/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentPaytm\\Providers\\PaymentPaytmServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaytm/app/Providers/PaymentPaytmServiceProvider.php',
-        'Modules\\PaymentPaytm\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentPaytm/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentPaytm\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentPaytm/app/Services/PaymentService.php',
-        'Modules\\PaymentRazorpay\\Database\\Seeders\\PaymentRazorpayDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentRazorpay/database/seeders/PaymentRazorpayDatabaseSeeder.php',
-        'Modules\\PaymentRazorpay\\Http\\Controllers\\PaymentRazorpayController' => __DIR__ . '/../..' . '/modules/PaymentRazorpay/app/Http/Controllers/PaymentRazorpayController.php',
-        'Modules\\PaymentRazorpay\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentRazorpay/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentRazorpay\\Providers\\PaymentRazorpayServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentRazorpay/app/Providers/PaymentRazorpayServiceProvider.php',
-        'Modules\\PaymentRazorpay\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentRazorpay/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentRazorpay\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentRazorpay/app/Services/PaymentService.php',
-        'Modules\\PaymentSkrill\\Database\\Seeders\\PaymentSkrillDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentSkrill/database/seeders/PaymentSkrillDatabaseSeeder.php',
-        'Modules\\PaymentSkrill\\Http\\Controllers\\PaymentSkrillController' => __DIR__ . '/../..' . '/modules/PaymentSkrill/app/Http/Controllers/PaymentSkrillController.php',
-        'Modules\\PaymentSkrill\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentSkrill/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentSkrill\\Providers\\PaymentSkrillServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentSkrill/app/Providers/PaymentSkrillServiceProvider.php',
-        'Modules\\PaymentSkrill\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentSkrill/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentSslCommerz\\Database\\Seeders\\PaymentSslCommerzDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/database/seeders/PaymentSslCommerzDatabaseSeeder.php',
-        'Modules\\PaymentSslCommerz\\Http\\Controllers\\PaymentSslCommerzController' => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/app/Http/Controllers/PaymentSslCommerzController.php',
-        'Modules\\PaymentSslCommerz\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/app/Providers/EventServiceProvider.php',
-        'Modules\\PaymentSslCommerz\\Providers\\PaymentSslCommerzServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/app/Providers/PaymentSslCommerzServiceProvider.php',
-        'Modules\\PaymentSslCommerz\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/app/Providers/RouteServiceProvider.php',
-        'Modules\\PaymentSslCommerz\\Services\\PaymentService' => __DIR__ . '/../..' . '/modules/PaymentSslCommerz/app/Services/PaymentService.php',
         'Modules\\PaymentStripeRecurring\\Database\\Seeders\\PaymentStripeRecurringDatabaseSeeder' => __DIR__ . '/../..' . '/modules/PaymentStripeRecurring/database/seeders/PaymentStripeRecurringDatabaseSeeder.php',
         'Modules\\PaymentStripeRecurring\\Http\\Controllers\\PaymentStripeRecurringController' => __DIR__ . '/../..' . '/modules/PaymentStripeRecurring/app/Http/Controllers/PaymentStripeRecurringController.php',
         'Modules\\PaymentStripeRecurring\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/modules/PaymentStripeRecurring/app/Providers/EventServiceProvider.php',

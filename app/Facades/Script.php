@@ -89,7 +89,7 @@ class Script extends Facade
             ->implode("\n");
     }
 
-    protected static function renderJs(bool $defer = true, bool $async = false): string
+    protected static function renderJs(bool $defer = false, bool $async = false): string
     {
         $assets = Core::loadModuleAssets()['js'] ?? [];
 
