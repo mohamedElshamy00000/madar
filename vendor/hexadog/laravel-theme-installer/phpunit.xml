@@ -1,7 +1,0 @@
-<phpunit colors="true">
-    <testsuites>
-        <testsuite name="Laravel Theme Installer Tests">
-            <directory>tests</directory>
-        </testsuite>
-    </testsuites>
-</phpunit>
