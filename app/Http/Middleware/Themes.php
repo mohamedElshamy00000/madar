@@ -28,7 +28,10 @@ class Themes
             $theme = 'guest/' . get_option('frontend_theme', env('THEME_FRONTEND'));
         }
 
-        ThemesManager::set($theme);
+        // ThemesManager::set($theme);
+        if (ThemesManager::exists($theme)) {
+            ThemesManager::set($theme);
+        }
 
         app()->instance('theme', $theme);
 
