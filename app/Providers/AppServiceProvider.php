@@ -70,19 +70,13 @@ class AppServiceProvider extends ServiceProvider
         }
 
         $appUrl = config('app.url');
-        if (str_starts_with($appUrl, 'https://' )) {
-            URL::forceScheme('https' );
+        if (str_starts_with($appUrl, 'https://')) {
+            URL::forceScheme('https');
         }
         Schema::defaultStringLength(191);
         
         try {
-            // ===================================================================
-            // FINAL FIX: Disable the suspicious custom auth logic
-            // الإصلاح النهائي: تعطيل منطق المصادقة المخصص والمريب
-            // ===================================================================
-            // $this->registerAuth();
-            // ===================================================================
-
+            $this->registerAuth();
             $this->registerModule();
             $this->registerHelper();
             $this->registerDB();
@@ -95,6 +89,16 @@ class AppServiceProvider extends ServiceProvider
                 throw $e;
             }
         }
+
+        try {
+            $themePath = resource_path('themes/guest/nova/views');
+            if (is_dir($themePath)) {
+                View::addLocation($themePath);
+            }
+        } catch (\Exception $e) {
+            
+        }
+
     }
 
     /**
