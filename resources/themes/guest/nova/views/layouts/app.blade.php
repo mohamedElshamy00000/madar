@@ -17,8 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.cdnfonts.com/css/general-sans?styles=135312,135310,135313,135303" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ theme_public_asset('css/flags/flag-icon.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ theme_public_asset('css/fontawesome/css/all.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ theme_public_asset('/css/flags/flag-icon.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ theme_public_asset('/css/fontawesome/css/all.min.css') }}">
     {!! theme_vite('guest/nova') !!}
     {!! Script::globals() !!}
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="{{ theme_public_asset('js/jquery.min.js') }}"></script>
-    <script type="text/javascript" src="{{ theme_public_asset('js/main.js') }}"></script>
+    <script type="text/javascript" src="{{ theme_public_asset('/js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ theme_public_asset('/js/main.js') }}"></script>
 </body>
 </html>

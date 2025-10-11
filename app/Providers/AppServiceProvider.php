@@ -169,12 +169,12 @@ class AppServiceProvider extends ServiceProvider
                 $user = Auth::user();
                 $team = Teams::where("owner", $user_id)->first();
 
-                if (!$team) {
-                    Auth::guard('web')->logout();
-                    Session::invalidate();
-                    Session::regenerateToken();
-                    header("Location: ". url(""));
-                }
+                // if (!$team) {
+                //     Auth::guard('web')->logout();
+                //     Session::invalidate();
+                //     Session::regenerateToken();
+                //     header("Location: ". url(""));
+                // }
 
                 request()->merge(['team' => $team ]);
                 request()->merge(['team_id' => $team->id]);

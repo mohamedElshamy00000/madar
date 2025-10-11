@@ -49,6 +49,7 @@ if (!function_exists('theme_public_asset')) {
     {
         $theme = app()->bound('theme') ? app('theme') : '';
         return asset("resources/themes/{$theme}/public/{$path}");
+        // dd(asset("resources/themes/{$theme}/public/{$path}"));
     }
 }
 
