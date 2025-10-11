@@ -24,13 +24,11 @@ class Themes
         {
             $theme = 'guest/' . get_option('frontend_theme', env('THEME_FRONTEND'));
         }
-            // dd($theme);
-        // --- THIS IS THE CORRECT FIX ---
-        // --- هذا هو الإصلاح الصحيح ---
+        // dd($theme);
         try {
             ThemesManager::set($theme);
         } catch (\Exception $e) {
-            // Ignore any error, since themes are already built.
+
         }
 
         app()->instance('theme', $theme);
