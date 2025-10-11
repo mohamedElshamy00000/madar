@@ -58,6 +58,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // Skip database operations during package discovery or migrations
+        if ($this->isRunningInMaintenanceMode()) {
+            return;
+        }
+
         $appUrl = config('app.url');
         if (str_starts_with($appUrl, 'https://')) {
             \URL::forceScheme('https');
@@ -70,6 +75,37 @@ class AppServiceProvider extends ServiceProvider
         $this->registerBlade();
         $this->registerFacades();
         Core::updateModuleStatusesFile();
+    }
+
+    /**
+     * Check if we're running in maintenance mode (package discovery, migrations, etc.)
+     */
+    protected function isRunningInMaintenanceMode(): bool
+    {
+        if (!$this->app->runningInConsole()) {
+            return false;
+        }
+
+        $argv = $_SERVER['argv'] ?? [];
+        $command = implode(' ', $argv);
+        
+        // Skip during these commands
+        $skipCommands = [
+            'package:discover',
+            'composer install',
+            'composer update',
+            'migrate',
+            'db:seed',
+            'optimize:clear',
+        ];
+
+        foreach ($skipCommands as $skipCommand) {
+            if (str_contains($command, $skipCommand)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public function registerModule(): void
@@ -141,105 +177,112 @@ class AppServiceProvider extends ServiceProvider
 
     public function registerDB(): void
     {
-        $options = DB::table('options')->get();
-        config(['options' => $options]);
+        try {
+            // Check if database connection is available
+            if (!Schema::hasTable('options')) {
+                Schema::create('options', function ($table) {
+                    $table->increments('id');
+                    $table->string('name')->nullable();
+                    $table->longText('value')->nullable();
+                });
+            }
 
-        if( !Schema::hasTable('cache') ){
-            Schema::create('cache', function ($table) {
-                $table->string('key')->unique();
-                $table->text('value');
-                $table->integer('expiration');
-            });
-        }
+            $options = DB::table('options')->get();
+            config(['options' => $options]);
 
-        if( !Schema::hasTable('jobs') ){
-            Schema::create('jobs', function ($table) {
-                $table->id();
-                $table->string('queue')->index();
-                $table->longText('payload');
-                $table->unsignedTinyInteger('attempts')->default(0);
-                $table->unsignedInteger('reserved_at')->nullable();
-                $table->unsignedInteger('available_at')->nullable();
-                $table->unsignedInteger('created_at');
-            });
-        }
+            if( !Schema::hasTable('cache') ){
+                Schema::create('cache', function ($table) {
+                    $table->string('key')->unique();
+                    $table->text('value');
+                    $table->integer('expiration');
+                });
+            }
 
-        if( !Schema::hasTable('sessions') ){
-            Schema::create('sessions', function ($table) {
-                $table->string('id')->unique();
-                $table->integer('user_id')->nullable();
-                $table->string('ip_address', 45)->nullable();
-                $table->text('user_agent')->nullable();
-                $table->text('payload');
-                $table->integer('last_activity');
-            });
-        }
+            if( !Schema::hasTable('jobs') ){
+                Schema::create('jobs', function ($table) {
+                    $table->id();
+                    $table->string('queue')->index();
+                    $table->longText('payload');
+                    $table->unsignedTinyInteger('attempts')->default(0);
+                    $table->unsignedInteger('reserved_at')->nullable();
+                    $table->unsignedInteger('available_at')->nullable();
+                    $table->unsignedInteger('created_at');
+                });
+            }
 
-        if( !Schema::hasTable('options') ){
-            Schema::create('options', function ($table) {
-                $table->increments('id');
-                $table->string('name')->nullable();
-                $table->longText('value')->nullable();
-            });
-        }
+            if( !Schema::hasTable('sessions') ){
+                Schema::create('sessions', function ($table) {
+                    $table->string('id')->unique();
+                    $table->integer('user_id')->nullable();
+                    $table->string('ip_address', 45)->nullable();
+                    $table->text('user_agent')->nullable();
+                    $table->text('payload');
+                    $table->integer('last_activity');
+                });
+            }
 
-        if( !Schema::hasTable('users') ){
-            Schema::create('users', function ($table) {
-                $table->increments('id');
-                $table->string('id_secure')->nullable();
-                $table->integer('role')->nullable();
-                $table->string('pid')->nullable();
-                $table->string('login_type')->nullable();
-                $table->string('fullname')->nullable();
-                $table->string('username')->nullable();
-                $table->string('email')->nullable();
-                $table->string('password')->nullable();
-                $table->string('avatar')->nullable();
-                $table->integer('plan')->nullable();
-                $table->integer('expiration_date')->nullable();
-                $table->string('timezone')->nullable();
-                $table->string('language')->nullable();
-                $table->mediumText('data')->nullable();
-                $table->string('secret_key')->nullable();
-                $table->integer('status')->nullable();
-                $table->integer('changed')->nullable();
-                $table->integer('created')->nullable();
-            });
+            if( !Schema::hasTable('users') ){
+                Schema::create('users', function ($table) {
+                    $table->increments('id');
+                    $table->string('id_secure')->nullable();
+                    $table->integer('role')->nullable();
+                    $table->string('pid')->nullable();
+                    $table->string('login_type')->nullable();
+                    $table->string('fullname')->nullable();
+                    $table->string('username')->nullable();
+                    $table->string('email')->nullable();
+                    $table->string('password')->nullable();
+                    $table->string('avatar')->nullable();
+                    $table->integer('plan')->nullable();
+                    $table->integer('expiration_date')->nullable();
+                    $table->string('timezone')->nullable();
+                    $table->string('language')->nullable();
+                    $table->mediumText('data')->nullable();
+                    $table->string('secret_key')->nullable();
+                    $table->integer('status')->nullable();
+                    $table->integer('changed')->nullable();
+                    $table->integer('created')->nullable();
+                });
 
-            DB::table('users')->insert([
-                'id_secure' => '',
-                'pid' => '',
-                'login_type' => 'direct',
-                'fullname' => 'Super Admin',
-                'username' => 'admin',
-                'email' => 'admin@gmail.com',
-                'password' => '123456',
-                'plan' => '1',
-                'expiration_date' => '-1',
-                'timezone' => 'Asia/Ho_Chi_Minh',
-                'language' => 'en',
-                'data' => '',
-                'secret_key' => '123456789',
-                'status' => 1,
-                'changed' => 1687230216,
-                'created' => 1687230216,
-            ]);
-        }
+                DB::table('users')->insert([
+                    'id_secure' => '',
+                    'pid' => '',
+                    'login_type' => 'direct',
+                    'fullname' => 'Super Admin',
+                    'username' => 'admin',
+                    'email' => 'admin@gmail.com',
+                    'password' => '123456',
+                    'plan' => '1',
+                    'expiration_date' => '-1',
+                    'timezone' => 'Asia/Ho_Chi_Minh',
+                    'language' => 'en',
+                    'data' => '',
+                    'secret_key' => '123456789',
+                    'status' => 1,
+                    'changed' => 1687230216,
+                    'created' => 1687230216,
+                ]);
+            }
 
-        if( !Schema::hasTable('languages') ){
-            Schema::create('languages', function ($table) {
-                $table->increments('id');
-                $table->string('id_secure')->nullable();
-                $table->string('name')->nullable();
-                $table->string('code', 10)->nullable();
-                $table->string('icon', 32)->nullable();
-                $table->string('dir', 3)->nullable();
-                $table->integer('is_default')->nullable();
-                $table->string('auto_translate', 12)->nullable();
-                $table->integer('status')->nullable();
-                $table->integer('changed')->nullable();
-                $table->integer('created')->nullable();
-            });
+            if( !Schema::hasTable('languages') ){
+                Schema::create('languages', function ($table) {
+                    $table->increments('id');
+                    $table->string('id_secure')->nullable();
+                    $table->string('name')->nullable();
+                    $table->string('code', 10)->nullable();
+                    $table->string('icon', 32)->nullable();
+                    $table->string('dir', 3)->nullable();
+                    $table->integer('is_default')->nullable();
+                    $table->string('auto_translate', 12)->nullable();
+                    $table->integer('status')->nullable();
+                    $table->integer('changed')->nullable();
+                    $table->integer('created')->nullable();
+                });
+            }
+        } catch (\Exception $e) {
+            // Database not ready yet during deployment
+            // This is expected during package discovery
+            config(['options' => collect()]);
         }
     }
 
@@ -286,5 +329,3 @@ class AppServiceProvider extends ServiceProvider
 
     }
 }
-
-
