@@ -70,13 +70,19 @@ class AppServiceProvider extends ServiceProvider
         }
 
         $appUrl = config('app.url');
-        if (str_starts_with($appUrl, 'https://')) {
-            URL::forceScheme('https');
+        if (str_starts_with($appUrl, 'https://' )) {
+            URL::forceScheme('https' );
         }
         Schema::defaultStringLength(191);
         
         try {
-            $this->registerAuth();
+            // ===================================================================
+            // FINAL FIX: Disable the suspicious custom auth logic
+            // الإصلاح النهائي: تعطيل منطق المصادقة المخصص والمريب
+            // ===================================================================
+            // $this->registerAuth();
+            // ===================================================================
+
             $this->registerModule();
             $this->registerHelper();
             $this->registerDB();
@@ -89,16 +95,6 @@ class AppServiceProvider extends ServiceProvider
                 throw $e;
             }
         }
-
-        try {
-            $themePath = resource_path('themes/guest/nova/views');
-            if (is_dir($themePath)) {
-                View::addLocation($themePath);
-            }
-        } catch (\Exception $e) {
-            
-        }
-
     }
 
     /**
@@ -169,12 +165,12 @@ class AppServiceProvider extends ServiceProvider
                 $user = Auth::user();
                 $team = Teams::where("owner", $user_id)->first();
 
-                // if (!$team) {
-                //     Auth::guard('web')->logout();
-                //     Session::invalidate();
-                //     Session::regenerateToken();
-                //     header("Location: ". url(""));
-                // }
+                if (!$team) {
+                    Auth::guard('web')->logout();
+                    Session::invalidate();
+                    Session::regenerateToken();
+                    header("Location: ". url(""));
+                }
 
                 request()->merge(['team' => $team ]);
                 request()->merge(['team_id' => $team->id]);
