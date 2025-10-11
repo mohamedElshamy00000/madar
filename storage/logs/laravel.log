@@ -8344,3 +8344,122 @@
 #32 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('/Users/macbox/D...')
 #33 {main}
 "} 
+[2025-10-11 19:54:54] production.ERROR: Unable to prepare route [app/support/list] for serialization. Another route has already been assigned name [app.support.list]. {"exception":"[object] (LogicException(code: 0): Unable to prepare route [app/support/list] for serialization. Another route has already been assigned name [app.support.list]. at /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php:248)
+[stacktrace]
+#0 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php(209): Illuminate\\Routing\\AbstractRouteCollection->addToSymfonyRoutesCollection(Object(Symfony\\Component\\Routing\\RouteCollection), Object(Illuminate\\Routing\\Route))
+#1 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php(246): Illuminate\\Routing\\AbstractRouteCollection->toSymfonyRouteCollection()
+#2 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php(193): Illuminate\\Routing\\RouteCollection->toSymfonyRouteCollection()
+#3 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php(164): Illuminate\\Routing\\AbstractRouteCollection->dumper()
+#4 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(109): Illuminate\\Routing\\AbstractRouteCollection->compile()
+#5 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(68): Illuminate\\Foundation\\Console\\RouteCacheCommand->buildRouteCacheFile(Object(Illuminate\\Routing\\RouteCollection))
+#6 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\RouteCacheCommand->handle()
+#7 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#8 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Container\\Container->call(Array)
+#12 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(1110): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(359): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 /Users/macbox/Documents/GitHub/madar/artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#20 {main}
+"} 
+[2025-10-11 19:54:54] production.ERROR: The "/Users/macbox/Documents/GitHub/madar/resources/views" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"/Users/macbox/Documents/GitHub/madar/resources/views\" directory does not exist. at /Users/macbox/Documents/GitHub/madar/vendor/symfony/finder/Finder.php:646)
+[stacktrace]
+#0 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/ViewCacheCommand.php(88): Symfony\\Component\\Finder\\Finder->in(Array)
+#1 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/ViewCacheCommand.php(43): Illuminate\\Foundation\\Console\\ViewCacheCommand->bladeFilesIn(Array)
+#2 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php(261): Illuminate\\Foundation\\Console\\ViewCacheCommand->{closure:Illuminate\\Foundation\\Console\\ViewCacheCommand::handle():38}('/Users/macbox/D...', 0)
+#3 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/ViewCacheCommand.php(38): Illuminate\\Support\\Collection->each(Object(Closure))
+#4 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\ViewCacheCommand->handle()
+#5 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#6 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#8 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#9 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Container\\Container->call(Array)
+#10 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#11 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(1110): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(359): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\ViewCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /Users/macbox/Documents/GitHub/madar/artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#18 {main}
+"} 
+[2025-10-11 19:55:17] production.ERROR: Unable to prepare route [app/support/list] for serialization. Another route has already been assigned name [app.support.list]. {"exception":"[object] (LogicException(code: 0): Unable to prepare route [app/support/list] for serialization. Another route has already been assigned name [app.support.list]. at /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php:248)
+[stacktrace]
+#0 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php(209): Illuminate\\Routing\\AbstractRouteCollection->addToSymfonyRoutesCollection(Object(Symfony\\Component\\Routing\\RouteCollection), Object(Illuminate\\Routing\\Route))
+#1 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php(246): Illuminate\\Routing\\AbstractRouteCollection->toSymfonyRouteCollection()
+#2 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php(193): Illuminate\\Routing\\RouteCollection->toSymfonyRouteCollection()
+#3 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Routing/AbstractRouteCollection.php(164): Illuminate\\Routing\\AbstractRouteCollection->dumper()
+#4 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(109): Illuminate\\Routing\\AbstractRouteCollection->compile()
+#5 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(68): Illuminate\\Foundation\\Console\\RouteCacheCommand->buildRouteCacheFile(Object(Illuminate\\Routing\\RouteCollection))
+#6 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Foundation\\Console\\RouteCacheCommand->handle()
+#7 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#8 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Container/Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Container\\Container->call(Array)
+#12 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Command/Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(1110): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(359): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\RouteCacheCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 /Users/macbox/Documents/GitHub/madar/artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#20 {main}
+"} 
+[2025-10-11 19:55:30] production.ERROR: Command "theme:publish" is not defined.
+
+Did you mean one of these?
+    config:publish
+    lang:publish
+    livewire:publish
+    module:publish
+    module:publish-config
+    module:publish-migration
+    module:publish-translation
+    sail:publish
+    stub:publish
+    theme:all:build
+    theme:build
+    theme:cache:clear
+    theme:dev
+    theme:export
+    theme:list
+    theme:make
+    theme:make:tailwind
+    vendor:publish {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"theme:publish\" is not defined.
+
+Did you mean one of these?
+    config:publish
+    lang:publish
+    livewire:publish
+    module:publish
+    module:publish-config
+    module:publish-migration
+    module:publish-translation
+    sail:publish
+    stub:publish
+    theme:all:build
+    theme:build
+    theme:cache:clear
+    theme:dev
+    theme:export
+    theme:list
+    theme:make
+    theme:make:tailwind
+    vendor:publish at /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php:743)
+[stacktrace]
+#0 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->find('theme:publish')
+#1 /Users/macbox/Documents/GitHub/madar/vendor/symfony/console/Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/macbox/Documents/GitHub/madar/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/macbox/Documents/GitHub/madar/artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
