@@ -4,6 +4,7 @@
 
     <div class="flex flex-col justify-center flex-1 px-8 py-16 bg-blueGray-100 z-10" style="background-image: url({{ theme_public_asset('images/pattern-light-big.svg') }}); background-position: center;">
         <form class="actionForm max-w-md mx-auto w-full" action="{{ module_url('do_login') }}" method="POST">
+            @csrf 
             <div class="show-on-mobile">
                 <a class="mb-4 inline-block" href="{{ url('') }}">
                     <img class="h-10" src="{{ url( get_option("website_logo_brand_dark", asset('public/img/logo-brand-dark.png')) ) }}" alt="">
