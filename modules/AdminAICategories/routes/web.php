@@ -13,7 +13,8 @@ Route::middleware(['web', 'auth'])->group(function () {
             Route::post('save', [AdminAICategoriesController::class, 'save'])->name('admin.ai.categories.save');
             Route::post('list', [AdminAICategoriesController::class, 'list'])->name('admin.ai.categories.list');
             Route::post('status/{any}', [AdminAICategoriesController::class, 'status'])->name('app.ai.categories.status');
-            Route::post('destroy', [AdminAICategoriesController::class, 'destroy'])->name('admin.ai.categories.destroy');
+            // Route::post('destroy', [AdminAICategoriesController::class, 'destroy'])->name('admin.ai.categories.destroy');
+            Route::post('destroy', [AdminAICategoriesController::class, 'destroy'])->name('admin.someothermodule.categories.destroy');
 
         });
     });
