@@ -33,8 +33,8 @@ export default defineConfig(() => {
         process.exit(0);
     }
 
-    // const outputDir = `resources/themes/${theme}/public`;
-    const outputDir = `public/themes/${theme}`;
+    const outputDir = `resources/themes/${theme}/public`;
+
     if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
