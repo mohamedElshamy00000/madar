@@ -93,7 +93,7 @@
         إنها تتعامل تلقائيًا مع تحميل ملفات CSS و JS الصحيحة.
     --}}
     @vite(['themes/guest/nova/css/app.css', 'themes/guest/nova/js/app.js'] )
-
+    {!! theme_vite() !!}
     {{-- 
         The line below might be from an old package and is no longer needed.
         The @vite directive above is the modern replacement.
