@@ -22,14 +22,20 @@ class AppChannelInstagramProfilesServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->btnChannels();
-        $this->registerSubMenu();
+        // These are safe to run in the console
         $this->registerCommands();
         $this->registerCommandSchedules();
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
         $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
+
+        // THIS IS THE FIX:
+        // Only run UI-related code when not in the console.
+        if (! $this->app->runningInConsole()) {
+            $this->btnChannels();
+            $this->registerSubMenu();
+        }
     }
 
     public function btnChannels(): void

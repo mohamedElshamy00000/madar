@@ -22,53 +22,60 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        \MailSender::addTemplate('Auth', [
-            [
-                'id' => 'forgot_password',
-                'name' => __('Forgot Password'),
-                'view' => 'mail/forgot_password',
-                'module' => $this->name,
-                'description' => __('Sent when user requests to reset password.'),
-                'variables' => ['fullname', 'reset_url'],
-            ],
-            [
-                'id' => 'password_changed',
-                'name' => __('Password Changed'),
-                'view' => 'mail/password_changed',
-                'module' => $this->name,
-                'description' => __('Confirmation email after password change.'),
-                'variables' => ['fullname'],
-            ],
-            [
-                'id' => 'welcome',
-                'name' => __('Welcome Email'),
-                'view' => 'mail/welcome',
-                'module' => $this->name,
-                'description' => __('Sent to user when account is created.'),
-                'variables' => ['fullname', 'login_url'],
-            ],
-            [
-                'id' => 'activation',
-                'name' => __('Account Activation'),
-                'view' => 'mail/activation',
-                'module' => $this->name,
-                'description' => __('Sent to user to verify and activate their account.'),
-                'variables' => ['fullname', 'verify_url'],
-            ],
-        ]);
-
-        \Core::addSidebarBlock(function () {
-            return view('auth::sidebar-block')->render();
-        }, 1000, fn() => 1);
-
-        $this->registerSubMenu();
+        // These are safe to run in the console
         $this->registerCommands();
         $this->registerCommandSchedules();
         $this->registerTranslations();
         $this->registerConfig();
         $this->registerViews();
         $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
+
+        // THIS IS THE FIX:
+        // Only run UI-related or state-modifying code when not in the console.
+        if (! $this->app->runningInConsole()) {
+            \MailSender::addTemplate('Auth', [
+                [
+                    'id' => 'forgot_password',
+                    'name' => __('Forgot Password'),
+                    'view' => 'mail/forgot_password',
+                    'module' => $this->name,
+                    'description' => __('Sent when user requests to reset password.'),
+                    'variables' => ['fullname', 'reset_url'],
+                ],
+                [
+                    'id' => 'password_changed',
+                    'name' => __('Password Changed'),
+                    'view' => 'mail/password_changed',
+                    'module' => $this->name,
+                    'description' => __('Confirmation email after password change.'),
+                    'variables' => ['fullname'],
+                ],
+                [
+                    'id' => 'welcome',
+                    'name' => __('Welcome Email'),
+                    'view' => 'mail/welcome',
+                    'module' => $this->name,
+                    'description' => __('Sent to user when account is created.'),
+                    'variables' => ['fullname', 'login_url'],
+                ],
+                [
+                    'id' => 'activation',
+                    'name' => __('Account Activation'),
+                    'view' => 'mail/activation',
+                    'module' => $this->name,
+                    'description' => __('Sent to user to verify and activate their account.'),
+                    'variables' => ['fullname', 'verify_url'],
+                ],
+            ]);
+
+            \Core::addSidebarBlock(function () {
+                return view('auth::sidebar-block')->render();
+            }, 1000, fn() => 1);
+
+            $this->registerSubMenu();
+        }
     }
+
 
     /**
      * Register the service provider.

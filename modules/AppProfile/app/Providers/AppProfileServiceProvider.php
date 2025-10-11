@@ -19,6 +19,7 @@ class AppProfileServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // These are safe to run in the console
         $this->registerCommands();
         $this->registerCommandSchedules();
         $this->registerTranslations();
@@ -26,10 +27,15 @@ class AppProfileServiceProvider extends ServiceProvider
         $this->registerViews();
         $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
 
-        \HeaderManager::registerHeaderItem(function () {
-            return view('appprofile::partials.header-item')->render();
-        },'end' , 10000, fn() => 1);
+        // THIS IS THE FIX:
+        // Only run UI-related code when not in the console.
+        if (! $this->app->runningInConsole()) {
+            \HeaderManager::registerHeaderItem(function () {
+                return view('appprofile::partials.header-item')->render();
+            }, 'end', 10000, fn() => 1);
+        }
     }
+
 
     /**
      * Register the service provider.

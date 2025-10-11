@@ -2,6 +2,7 @@
 
 namespace Modules\AdminNotifications\Providers;
 
+use App\Facades\HeaderManager;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Nwidart\Modules\Traits\PathNamespace;
@@ -28,7 +29,7 @@ class AdminNotificationsServiceProvider extends ServiceProvider
         $this->registerViews();
         $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
 
-        \HeaderManager::registerHeaderItem(function () {
+        HeaderManager::registerHeaderItem(function () {
             return view('adminnotifications::partials.header-item')->render();
         },'end' , 9000, fn() => 1);
     }

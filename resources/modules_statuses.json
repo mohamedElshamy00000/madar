@@ -91,5 +91,6 @@
     "PaymentPaypal": true,
     "PaymentPaypalRecurring": true,
     "PaymentStripe": true,
-    "PaymentStripeRecurring": true
+    "PaymentStripeRecurring": true,
+    ".DS_Store": true
 }

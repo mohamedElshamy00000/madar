@@ -9,6 +9,7 @@ use Modules\AdminLanguages\Models\LanguageItems;
 use Stichoza\GoogleTranslate\GoogleTranslate;
 use Illuminate\Support\Facades\Cookie;
 use File;
+use Illuminate\Support\Facades\Log;
 
 class Language extends Facade
 {
@@ -81,7 +82,7 @@ class Language extends Facade
             ->pluck('value', 'name')
             ->toArray();
 
-        \Script::define('Lang', $data);
+        // \Script::define('Lang', $data);
     }
 
     protected static function getAllTranslatableDirs()
@@ -254,9 +255,9 @@ class Language extends Facade
 
             // Optional: Log the count of missing translations for each language
             if ($missingCount > 0) {
-                \Log::info("Updated $missingCount missing translations for language $locale");
+                Log::info("Updated $missingCount missing translations for language $locale");
             } else {
-                \Log::info("No missing translations found for language $locale");
+                Log::info("No missing translations found for language $locale");
             }
         }
 
@@ -577,11 +578,11 @@ class Language extends Facade
                         $msg = $e->getMessage();
                         if (stripos($msg, '413') !== false || stripos(\get_class($e), 'LargeTextException') !== false) {
                             $maxEncodedLen = max(600, (int) floor($maxEncodedLen * 0.6)); // thu nhỏ mạnh tay
-                            \Log::warning("Retry: 413/LargeText -> shrink maxEncodedLen to {$maxEncodedLen}");
+                            Log::warning("Retry: 413/LargeText -> shrink maxEncodedLen to {$maxEncodedLen}");
                             usleep(300000); // 300ms
                             continue;
                         }
-                        \Log::error("Retry failed while translating missing keys: " . $e->getMessage());
+                        Log::error("Retry failed while translating missing keys: " . $e->getMessage());
                         usleep(300000);
                     }
 
@@ -603,7 +604,7 @@ class Language extends Facade
                 $translatedData = $translatedResults;
             } catch (\Exception $e) {
                 dd($e);
-                \Log::error("Translation failed: " . $e->getMessage());
+                Log::error("Translation failed: " . $e->getMessage());
                 $translatedData = $translations;
             }
         }

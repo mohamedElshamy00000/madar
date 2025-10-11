@@ -22,10 +22,7 @@ class AppTeamJoinedServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        \Core::addSidebarBlock(function () {
-            return view('appteamjoined::sidebar-block')->render();
-        }, 500, fn() => 1);
-        
+        // These are safe to run in the console
         $router = $this->app['router'];
         $router->pushMiddlewareToGroup('web', CaptureJoinTeam::class);
 
@@ -35,7 +32,16 @@ class AppTeamJoinedServiceProvider extends ServiceProvider
         $this->registerConfig();
         $this->registerViews();
         $this->loadMigrationsFrom(module_path($this->name, 'database/migrations'));
+
+        // THIS IS THE FIX:
+        // Only run UI-related code when not in the console.
+        if (! $this->app->runningInConsole()) {
+            \Core::addSidebarBlock(function () {
+                return view('appteamjoined::sidebar-block')->render();
+            }, 500, fn() => 1);
+        }
     }
+
 
     public function registerSubMenu(): void
     {

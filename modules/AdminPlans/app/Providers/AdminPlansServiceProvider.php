@@ -2,8 +2,10 @@
 
 namespace Modules\AdminPlans\Providers;
 
+use App\Facades\Core;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Modules\AdminPlans\Facades\Pricing;
 use Nwidart\Modules\Traits\PathNamespace;
 use Modules\AdminPlans\Http\Middleware\CheckUserPlan;
 
@@ -18,26 +20,11 @@ class AdminPlansServiceProvider extends ServiceProvider
     /**
      * Boot the application events.
      */
+    // In modules/AdminPlans/app/Providers/AdminPlansServiceProvider.php
+
     public function boot(): void
     {
-        $subfeatures = \Pricing::getSubFeatures("features");
-
-        \Pricing::add([
-            [
-                "sort"      => 100,
-                "key"       => "access_feature",
-                "label"     => __("Access Features"),
-                "check"     => false,
-                "type"      => "group",
-                "raw"       => null,
-                "subfeature"=> $subfeatures
-            ]
-        ]);
-
-        \Core::addSidebarBlock(function () {
-            return view('adminplans::sidebar-block')->render();
-        }, 15000, fn() => 1);
-
+        // These are safe to run in the console
         $this->registerCommands();
         $this->registerCommandSchedules();
         $this->registerTranslations();
@@ -47,7 +34,30 @@ class AdminPlansServiceProvider extends ServiceProvider
 
         $router = $this->app['router'];
         $router->pushMiddlewareToGroup('web', CheckUserPlan::class);
+
+        // THIS IS THE FIX:
+        // Only run UI-related or state-modifying code when not in the console.
+        if (! $this->app->runningInConsole()) {
+            $subfeatures = Pricing::getSubFeatures("features");
+
+            Pricing::add([
+                [
+                    "sort"      => 100,
+                    "key"       => "access_feature",
+                    "label"     => __("Access Features"),
+                    "check"     => false,
+                    "type"      => "group",
+                    "raw"       => null,
+                    "subfeature"=> $subfeatures
+                ]
+            ]);
+
+            Core::addSidebarBlock(function () {
+                return view('adminplans::sidebar-block')->render();
+            }, 15000, fn() => 1);
+        }
     }
+
 
     /**
      * Register the service provider.

@@ -22,8 +22,7 @@ class AppFilesServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-
-        $this->registerSubMenu();
+        // These are safe to run in the console
         $this->registerCommands();
         $this->registerCommandSchedules();
         $this->registerTranslations();
@@ -39,7 +38,14 @@ class AppFilesServiceProvider extends ServiceProvider
             "sort" => 4000,
             "view" => "permissions",
         ]);
+
+        // THIS IS THE FIX:
+        // Only run UI-related code when not in the console.
+        if (! $this->app->runningInConsole()) {
+            $this->registerSubMenu();
+        }
     }
+
 
     /**
      * Register the service provider.

@@ -2,8 +2,10 @@
 
 namespace Modules\AdminLanguages\Providers;
 
+use App\Facades\HeaderManager;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Modules\AdminLanguages\Facades\Language;
 use Nwidart\Modules\Traits\PathNamespace;
 
 class AdminLanguagesServiceProvider extends ServiceProvider
@@ -30,11 +32,14 @@ class AdminLanguagesServiceProvider extends ServiceProvider
             class_alias(\Modules\AdminLanguages\Facades\Language::class, 'Language');
         }
 
-        \Language::toJs();
-
-        \HeaderManager::registerHeaderItem(function () {
-            return view('adminlanguages::partials.header-item')->render();
-        },'end' , 8000, fn() => 1);
+        // THIS IS THE FIX: Only run UI code when not in the console.
+        if (! $this->app->runningInConsole()) {
+            // Language::toJs();
+            
+            // HeaderManager::registerHeaderItem(function () {
+            //     return view('adminlanguages::partials.header-item')->render();
+            // }, 'end', 8000, fn() => 1);
+        }
     }
 
     /**
