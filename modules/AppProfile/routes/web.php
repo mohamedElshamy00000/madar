@@ -7,18 +7,19 @@ use Modules\AppProfile\Http\Controllers\AppProfileController;
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
 */
 
 Route::middleware(['web', 'auth'])->group(function () {
     Route::group(["prefix" => "app"], function () {
+        
+        // THIS IS THE CORRECTED CODE BLOCK
+        // هذا هو الكود الصحيح
         Route::group(["prefix" => "profile"], function () {
-            Route::get('/', [AppProfileController::class, 'index'])->name('app.profile');
-            Route::get('/{page}', [AppProfileController::class, 'index'])->name('app.profile');
+            
+            // We combine the two routes into one with an optional parameter
+            // نقوم بدمج الـ routes في واحد مع باراميتر اختياري
+            Route::get('/{page?}', [AppProfileController::class, 'index'])->name('app.profile');
+            
             Route::get('billing/invoice/{id_secure}', [AppProfileController::class, 'showInvoice'])->name('app.profile.billing.show_invoice');
             Route::get('billing/invoice/{id_secure}/download', [AppProfileController::class, 'downloadInvoice'])->name('app.profile.billing.download_invoice');
             Route::post('update-profile', [AppProfileController::class, 'updateProfile'])->name('app.profile.update_profile');
@@ -27,4 +28,4 @@ Route::middleware(['web', 'auth'])->group(function () {
 
         Route::post('plan/activate/{id_secure}', [AppProfileController::class, 'activateFreePlan'])->name('plan.activate');
     }); 
-}); 
+});
