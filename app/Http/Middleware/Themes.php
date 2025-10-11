@@ -14,27 +14,27 @@ class Themes
      *
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
-public function handle(Request $request, Closure $next, $theme = null): Response
-{
-    if ($request->segment(1) === 'app' || $request->segment(1) === 'admin' || $request->segment(1) === 'payment')
+    public function handle(Request $request, Closure $next, $theme = null): Response
     {
-        $theme = 'app/pico';
-    }
-    else
-    {
-        $theme = 'guest/' . get_option('frontend_theme', env('THEME_FRONTEND'));
-    }
+        if ($request->segment(1) === 'app' || $request->segment(1) === 'admin' || $request->segment(1) === 'payment')
+        {
+            $theme = 'app/pico';
+        }
+        else
+        {
+            $theme = 'guest/' . get_option('frontend_theme', env('THEME_FRONTEND'));
+        }
+            // dd($theme);
+        // --- THIS IS THE CORRECT FIX ---
+        // --- هذا هو الإصلاح الصحيح ---
+        try {
+            ThemesManager::set($theme);
+        } catch (\Exception $e) {
+            // Ignore any error, since themes are already built.
+        }
 
-    // --- THIS IS THE CORRECT FIX ---
-    // --- هذا هو الإصلاح الصحيح ---
-    try {
-        ThemesManager::set($theme);
-    } catch (\Exception $e) {
-        // Ignore any error, since themes are already built.
+        app()->instance('theme', $theme);
+
+        return $next($request, $theme);
     }
-
-    app()->instance('theme', $theme);
-
-    return $next($request, $theme);
-}
 }
