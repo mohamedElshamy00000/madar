@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Facades\Core;
 use Illuminate\Support\ServiceProvider;
 use Nwidart\Modules\Facades\Module;
 use Illuminate\Support\Facades\Blade;
@@ -16,8 +17,9 @@ use Illuminate\Translation\Translator;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\View;
-use Core;
-use Auth;
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -26,6 +28,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        // Set a flag to indicate we're in maintenance mode
+        if ($this->isRunningInMaintenanceMode()) {
+            config(['app.installing' => true]);
+        }
         
         $cachePath = storage_path('framework/cache');
         if (!File::exists($cachePath)) {
@@ -58,23 +64,31 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        // Skip database operations during package discovery or migrations
+        // Skip ALL database operations during package discovery or migrations
         if ($this->isRunningInMaintenanceMode()) {
             return;
         }
 
         $appUrl = config('app.url');
         if (str_starts_with($appUrl, 'https://')) {
-            \URL::forceScheme('https');
+            URL::forceScheme('https');
         }
         Schema::defaultStringLength(191);
-        $this->registerAuth();
-        $this->registerModule();
-        $this->registerHelper();
-        $this->registerDB();
-        $this->registerBlade();
-        $this->registerFacades();
-        Core::updateModuleStatusesFile();
+        
+        try {
+            $this->registerAuth();
+            $this->registerModule();
+            $this->registerHelper();
+            $this->registerDB();
+            $this->registerBlade();
+            $this->registerFacades();
+            Core::updateModuleStatusesFile();
+        } catch (\Exception $e) {
+            // Silently fail during deployment
+            if (!$this->isRunningInMaintenanceMode()) {
+                throw $e;
+            }
+        }
     }
 
     /**
@@ -92,11 +106,13 @@ class AppServiceProvider extends ServiceProvider
         // Skip during these commands
         $skipCommands = [
             'package:discover',
-            'composer install',
-            'composer update',
+            'composer',
             'migrate',
             'db:seed',
-            'optimize:clear',
+            'optimize',
+            'route:cache',
+            'config:cache',
+            'view:cache',
         ];
 
         foreach ($skipCommands as $skipCommand) {
@@ -161,6 +177,10 @@ class AppServiceProvider extends ServiceProvider
 
     public function registerFacades(): void{
         $folderPath =  base_path('/app/Facades');
+
+        if (!is_dir($folderPath)) {
+            return;
+        }
 
         $files = glob($folderPath . '/*.php');
 
