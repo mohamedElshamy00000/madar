@@ -13,3 +13,8 @@
 .idea
 .vscode
 .DS_Store
+
+/bootstrap/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
