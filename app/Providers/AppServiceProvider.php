@@ -89,6 +89,16 @@ class AppServiceProvider extends ServiceProvider
                 throw $e;
             }
         }
+
+        try {
+            $themePath = resource_path('themes/guest/nova/views');
+            if (is_dir($themePath)) {
+                View::addLocation($themePath);
+            }
+        } catch (\Exception $e) {
+            
+        }
+
     }
 
     /**
