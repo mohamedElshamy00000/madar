@@ -34,7 +34,11 @@ class AdminMailSenderServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->applyMailConfigFromOptions();
+        // Only apply mail config if not running package discovery or composer install
+        if (!$this->isRunningPackageDiscovery()) {
+            $this->applyMailConfigFromOptions();
+        }
+        
         if (! class_exists('MailSender')) {
             class_alias(\Modules\AdminMailSender\Facades\MailSender::class, 'MailSender');
         }
@@ -42,22 +46,47 @@ class AdminMailSenderServiceProvider extends ServiceProvider
         $this->app->register(RouteServiceProvider::class);
     }
 
+    /**
+     * Check if we're running package discovery or composer install
+     */
+    protected function isRunningPackageDiscovery(): bool
+    {
+        // Check if running in console
+        if (!$this->app->runningInConsole()) {
+            return false;
+        }
+
+        // Check if we're running package:discover command
+        $argv = $_SERVER['argv'] ?? [];
+        $command = implode(' ', $argv);
+        
+        return str_contains($command, 'package:discover') 
+            || str_contains($command, 'composer install')
+            || str_contains($command, 'composer update');
+    }
+
     public static function applyMailConfigFromOptions()
     {
-        // Protocol
-        $protocol = get_option('mail_protocol', 'mail');
-        $driver = $protocol == 'smtp' ? 'smtp' : 'sendmail';
+        // Add try-catch to prevent failures if database is not available
+        try {
+            // Protocol
+            $protocol = get_option('mail_protocol', 'mail');
+            $driver = $protocol == 'smtp' ? 'smtp' : 'sendmail';
 
-        config([
-            'mail.default'                  => $driver,
-            'mail.mailers.smtp.host'        => get_option('smtp_server'),
-            'mail.mailers.smtp.port'        => get_option('smtp_port', 587),
-            'mail.mailers.smtp.username'    => get_option('smtp_username'),
-            'mail.mailers.smtp.password'    => get_option('smtp_password'),
-            'mail.mailers.smtp.encryption'  => strtolower(get_option('smtp_encryption', 'tls')) == 'none' ? null : strtolower(get_option('smtp_encryption', 'tls')),
-            'mail.from.address'             => get_option('mail_sender_email', 'example@gmail.com'),
-            'mail.from.name'                => get_option('mail_sender_name', 'Admin'),
-        ]);
+            config([
+                'mail.default'                  => $driver,
+                'mail.mailers.smtp.host'        => get_option('smtp_server'),
+                'mail.mailers.smtp.port'        => get_option('smtp_port', 587),
+                'mail.mailers.smtp.username'    => get_option('smtp_username'),
+                'mail.mailers.smtp.password'    => get_option('smtp_password'),
+                'mail.mailers.smtp.encryption'  => strtolower(get_option('smtp_encryption', 'tls')) == 'none' ? null : strtolower(get_option('smtp_encryption', 'tls')),
+                'mail.from.address'             => get_option('mail_sender_email', 'example@gmail.com'),
+                'mail.from.name'                => get_option('mail_sender_name', 'Admin'),
+            ]);
+        } catch (\Exception $e) {
+            // Database not available yet, use default mail config
+            // This is expected during deployment/package discovery
+        }
     }
 
     /**
