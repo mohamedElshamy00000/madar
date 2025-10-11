@@ -18,6 +18,7 @@
         "james-heinrich/getid3": "^1.9",
         "janu-software/facebook-php-sdk": "^0.3.1",
         "laravel/framework": "^11.9",
+        "laravel/pail": "*",
         "laravel/socialite": "^5.21",
         "laravel/tinker": "^2.9",
         "league/commonmark": "2.7.0",
@@ -44,7 +45,6 @@
         "yajra/laravel-datatables": "^11"
     },
     "require-dev": {
-        "laravel/pail": "^1.1",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
